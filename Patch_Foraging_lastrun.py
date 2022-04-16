@@ -1,8 +1,8 @@
 ﻿#!/usr/bin/env python
 # -*- coding: utf-8 -*-
 """
-This experiment was created using PsychoPy3 Experiment Builder (v2021.2.3),
-    on Sun Apr 17 01:01:34 2022
+This experiment was created using PsychoPy3 Experiment Builder (v2022.1.2),
+    on April 17, 2022, at 02:41
 If you publish work using this script the most relevant publication is:
 
     Peirce J, Gray JR, Simpson S, MacAskill M, Höchenberger R, Sogo H, Kastman E, Lindeløv JK. (2019) 
@@ -11,11 +11,9 @@ If you publish work using this script the most relevant publication is:
 
 """
 
-from __future__ import absolute_import, division
-
 from psychopy import locale_setup
 from psychopy import prefs
-from psychopy import sound, gui, visual, core, data, event, logging, clock, colors
+from psychopy import sound, gui, visual, core, data, event, logging, clock, colors, layout
 from psychopy.constants import (NOT_STARTED, STARTED, PLAYING, PAUSED,
                                 STOPPED, FINISHED, PRESSED, RELEASED, FOREVER)
 
@@ -26,6 +24,7 @@ from numpy.random import random, randint, normal, shuffle, choice as randchoice
 import os  # handy system and path functions
 import sys  # to get file system encoding
 
+import psychopy.iohub as io
 from psychopy.hardware import keyboard
 
 import os
@@ -41,9 +40,8 @@ import random
 # Ensure that relative paths start from the same directory as this script
 _thisDir = os.path.dirname(os.path.abspath(__file__))
 os.chdir(_thisDir)
-
 # Store info about the experiment session
-psychopyVersion = '2021.2.3'
+psychopyVersion = '2022.1.2'
 expName = 'Patch_Foraging'  # from the Builder filename that created this script
 expInfo = {'participant': '', 'session': '001'}
 dlg = gui.DlgFromDict(dictionary=expInfo, sortKeys=False, title=expName)
@@ -59,7 +57,7 @@ filename = _thisDir + os.sep + u'data/%s_%s_%s' % (expInfo['participant'], expNa
 # An ExperimentHandler isn't essential but helps with data saving
 thisExp = data.ExperimentHandler(name=expName, version='',
     extraInfo=expInfo, runtimeInfo=None,
-    originPath='/Users/abhinavtiwari/Docs/BSE662A_Patch_Foraging/Patch_Foraging_lastrun.py',
+    originPath="C:\\Users\\Visitor's Arena\\Documents\\GitHub\\BSE662A_Patch_Foraging\\Patch_Foraging_lastrun.py",
     savePickle=True, saveWideText=True,
     dataFileName=filename)
 # save a log file for detail verbose info
@@ -75,7 +73,7 @@ frameTolerance = 0.001  # how close to onset before 'same' frame
 win = visual.Window(
     size=[1440, 900], fullscr=True, screen=0, 
     winType='pyglet', allowGUI=False, allowStencil=False,
-    monitor='testMonitor', color='-1.0000, -1.0000, -1.0000', colorSpace='rgb',
+    monitor='testMonitor', color=[-1.0000, -1.0000, -1.0000], colorSpace='rgb',
     blendMode='avg', useFBO=True, 
     units='height')
 # store frame rate of monitor if we can measure it
@@ -84,12 +82,20 @@ if expInfo['frameRate'] != None:
     frameDur = 1.0 / round(expInfo['frameRate'])
 else:
     frameDur = 1.0 / 60.0  # could not measure, so guess
+# Setup ioHub
+ioConfig = {}
 
-# Setup eyetracking
-ioDevice = ioConfig = ioSession = ioServer = eyetracker = None
+# Setup iohub keyboard
+ioConfig['Keyboard'] = dict(use_keymap='psychopy')
+
+ioSession = '1'
+if 'session' in expInfo:
+    ioSession = str(expInfo['session'])
+ioServer = io.launchHubServer(window=win, **ioConfig)
+eyetracker = None
 
 # create a default keyboard (e.g. to check for escape)
-defaultKeyboard = keyboard.Keyboard()
+defaultKeyboard = keyboard.Keyboard(backend='iohub')
 
 # Initialize components for Routine "Welcome"
 WelcomeClock = core.Clock()
@@ -97,7 +103,7 @@ Welcometext = visual.TextStim(win=win, name='Welcometext',
     text='Welcome\nPlease press Spacebar to start',
     font='Open Sans',
     pos=(0, 0), height=0.05, wrapWidth=None, ori=0.0, 
-    color='1.0000, 1.0000, 1.0000', colorSpace='rgb', opacity=None, 
+    color=[1.0000, 1.0000, 1.0000], colorSpace='rgb', opacity=None, 
     languageStyle='LTR',
     depth=0.0);
 exp_start = keyboard.Keyboard()
@@ -498,7 +504,7 @@ for thisTrial in trials:
             win.callOnFlip(key_resp.clock.reset)  # t=0 on next screen flip
             win.callOnFlip(key_resp.clearEvents, eventType='keyboard')  # clear events on next screen flip
         if key_resp.status == STARTED and not waitOnFlip:
-            theseKeys = key_resp.getKeys(keyList=['left', 'right'], waitRelease=False)
+            theseKeys = key_resp.getKeys(keyList=['left','right'], waitRelease=False)
             _key_resp_allKeys.extend(theseKeys)
             if len(_key_resp_allKeys):
                 key_resp.keys = _key_resp_allKeys[-1].name  # just the last key pressed
@@ -547,16 +553,12 @@ for thisTrial in trials:
         fillColor= 'black',
         lineColor=[-1, -1, 1]
     )
-    end_box = visual.TextBox2(
-        win,
-        "You have been caught by Predator",
-        font='Open Sans',
-        units="pix",
-        color=(1, 0, 0), 
-        colorSpace='rgb',
-        fillColor = 'red',
-        letterHeight = 200
+    end_img = visual.ImageStim(
+            win=win,
+            image="attacked.png",
+            units="pix"
     )
+    
     cap_txt = visual.TextBox2(
         win,
         "Forage",
@@ -607,36 +609,28 @@ for thisTrial in trials:
         reward_list = list(range(state_r));
         #print("state_r",l_c);
         dep_rate = 7 - l_c;
-        reward_ctr = dep_rate; 
+        reward_ctr = dep_rate;
+        attack_time = 0;
+        flag=0;
         while clock.getTime()<10: # draw moving stimulus
             if(clock.getTime() > reward_ctr): 
                 reward_ctr= reward_ctr + dep_rate; 
                 rnd = random.randint(0,len(reward_list))
-                del reward_list[rnd:rnd +1 ]
-                
-        if state_t == 1:
-    #        attack_interval = 2;
-    #        comp_list = list(range(state_c));
-            attack_time = 0;
-    #        while clock.getTime()<10:
-    #            if clock.getTime() > attack_time:
-    #                attack_time = attack_time + attack_interval
-    #                rnd = random.randint(0,len(comp_list))
-    #                print("captured competitor",rnd)
-    #                del comp_list[rnd:rnd+1]
-            pred_x = random.randint(0, 400)
-            pred_y = random.randint(0, 600)
-            pred_x = pred_x - 250
-            while clock.getTime()<10:
+                del reward_list[rnd:rnd +1 ]    
+            if state_t == 1:
+                pred_x = random.randint(0, 400)
+                pred_y = random.randint(0, 600)
+                pred_x = pred_x - 250
                 if clock.getTime() > attack_time:
-                    attack_time = attack_time + 2
-                    if abs(p_pos[0]-pred_x)< 50 and  abs(p_pos[1]-pred_y)< 50:
-                        end_box.draw()
+                    attack_time = attack_time + 1
+                    print("Predator Location",pred_x, pred_y)
+                    print("Player Location",p_pos[0],p_pos[1])
+                    if abs(p_pos[0]-pred_x)< 60 and  abs(p_pos[1]-pred_y)< 60:
+                        cap_txt.text= "Attacked by Predator";
                         print("Attacked by Predator")
+                        end_img.draw()
+                        core.wait(2)
                         core.quit()
-                
-            
-                    
                 
             k = event.getKeys()
             if k: # if there was an actual key pressed:
@@ -711,8 +705,9 @@ for thisTrial in trials:
         p_pos = rect_r[p].pos
         reward_list = list(range(state_r));
         dep_rate = 7 - r_c;
-        reward_ctr = dep_rate; 
-        print("state_r",state_r);
+        reward_ctr = dep_rate;
+        attack_time = 0;
+    #    print("state_r",state_r);
         while clock.getTime()<10: # draw moving stimulus
           
             if(clock.getTime() > reward_ctr): 
@@ -720,6 +715,20 @@ for thisTrial in trials:
                 rnd = random.randint(0,len(reward_list)-1)
                 del reward_list[rnd:rnd +1 ]
                 #print(reward_list);
+            if state_t == 1:
+                pred_x = random.randint(0, 400)
+                pred_y = random.randint(0, 600)
+                pred_x = pred_x + 250
+                if clock.getTime() > attack_time:
+                    attack_time = attack_time + 1
+                    print("Predator Location",pred_x, pred_y)
+                    print("Player Location",p_pos[0],p_pos[1])
+                    if abs(p_pos[0]-pred_x)< 60 and  abs(p_pos[1]-pred_y)< 60:
+                        cap_txt.text= "Attacked by Predator";
+                        print("Attacked by Predator")
+                        end_img.draw()
+                        core.wait(2)
+                        core.quit()
             
             k = event.getKeys()
             if k: # if there was an actual key pressed:
@@ -893,6 +902,8 @@ thisExp.saveAsWideText(filename+'.csv', delim='auto')
 thisExp.saveAsPickle(filename)
 logging.flush()
 # make sure everything is closed down
+if eyetracker:
+    eyetracker.setConnectionState(False)
 thisExp.abort()  # or data files will save again on exit
 win.close()
 core.quit()
