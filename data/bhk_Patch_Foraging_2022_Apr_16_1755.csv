@@ -1,0 +1,5 @@
+﻿trials.thisRepN,trials.thisTrialN,trials.thisN,trials.thisIndex,left_competitors,right_competitors,threat,no_rewards,key_resp.keys,key_resp.rt,participant,session,date,expName,psychopyVersion,frameRate,
+0,0,0,0,2,5,0,5,right,7.838821081997594,bhk,001,2022_Apr_16_1755,Patch_Foraging,2021.2.3,59.86964904595872,
+1,0,1,0,2,5,0,5,right,0.5683986239964725,bhk,001,2022_Apr_16_1755,Patch_Foraging,2021.2.3,59.86964904595872,
+2,0,2,0,2,5,0,5,right,0.42073720699409023,bhk,001,2022_Apr_16_1755,Patch_Foraging,2021.2.3,59.86964904595872,
+,,,,2,5,0,5,right,1.418967416000669,,,,,,,
