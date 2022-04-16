@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 """
 This experiment was created using PsychoPy3 Experiment Builder (v2021.2.3),
-    on Sat Apr 16 23:34:19 2022
+    on Sun Apr 17 01:01:34 2022
 If you publish work using this script the most relevant publication is:
 
     Peirce J, Gray JR, Simpson S, MacAskill M, Höchenberger R, Sogo H, Kastman E, Lindeløv JK. (2019) 
@@ -107,7 +107,8 @@ ViewPatchClock = core.Clock()
 competitors = [[1,4],[5,1],[2,5]]
 
 state_c = random.randint(0,2)
-state_t = random.randint(0,1)
+#state_t = random.randint(0,1)
+state_t = 1
 state_r = random.randint(1,5)
 
 l_c = competitors[state_c][0]
@@ -126,6 +127,7 @@ key_resp = keyboard.Keyboard()
 # Initialize components for Routine "Foraging"
 ForagingClock = core.Clock()
 reward_value = 10;
+cap_time =-1;
 
 
 # Initialize components for Routine "End"
@@ -545,15 +547,27 @@ for thisTrial in trials:
         fillColor= 'black',
         lineColor=[-1, -1, 1]
     )
-    cap_txt = visual.TextBox2(
+    end_box = visual.TextBox2(
         win,
-        "",
+        "You have been caught by Predator",
         font='Open Sans',
+        units="pix",
         color=(1, 0, 0), 
         colorSpace='rgb',
-       
+        fillColor = 'red',
+        letterHeight = 200
     )
-    cap_txt.height = 10;
+    cap_txt = visual.TextBox2(
+        win,
+        "Forage",
+        font='Open Sans',
+        units="pix",
+        color=(1, 0, 0), 
+        colorSpace='rgb',
+        letterHeight = 40
+    )
+    
+    cap_txt.pos= [box.pos[0]+ 150,325]
     cap_txt.draw()
     box.draw()
     print("Trial started");
@@ -599,7 +613,31 @@ for thisTrial in trials:
                 reward_ctr= reward_ctr + dep_rate; 
                 rnd = random.randint(0,len(reward_list))
                 del reward_list[rnd:rnd +1 ]
-               
+                
+        if state_t == 1:
+    #        attack_interval = 2;
+    #        comp_list = list(range(state_c));
+            attack_time = 0;
+    #        while clock.getTime()<10:
+    #            if clock.getTime() > attack_time:
+    #                attack_time = attack_time + attack_interval
+    #                rnd = random.randint(0,len(comp_list))
+    #                print("captured competitor",rnd)
+    #                del comp_list[rnd:rnd+1]
+            pred_x = random.randint(0, 400)
+            pred_y = random.randint(0, 600)
+            pred_x = pred_x - 250
+            while clock.getTime()<10:
+                if clock.getTime() > attack_time:
+                    attack_time = attack_time + 2
+                    if abs(p_pos[0]-pred_x)< 50 and  abs(p_pos[1]-pred_y)< 50:
+                        end_box.draw()
+                        print("Attacked by Predator")
+                        core.quit()
+                
+            
+                    
+                
             k = event.getKeys()
             if k: # if there was an actual key pressed:
                 if k[0] == 'left':
@@ -624,15 +662,20 @@ for thisTrial in trials:
     
             rect_l[p].pos = p_pos # directly update both x *and* y
             box.draw()
-            ind =1 ;
             for j,i in enumerate(reward_list):
                 ind_tree = img_tree[i];
                 tree_pos_x = ind_tree.pos[0];
                 tree_pos_y= ind_tree.pos[1];
                 
                 if(abs(p_pos[0]-tree_pos_x)< 20 and  abs(p_pos[1]-tree_pos_y)< 20):
-                    cap_txt.text= "reward captured";
+                    cap_txt.text= "Reward Captured";
                     del reward_list[j:j+1];
+                    cap_time = clock.getTime();
+                    # print("capture Time",cap_time);
+      
+                if(cap_time < clock.getTime()- 0.7 ):
+                    cap_txt.text= "Forage";
+            
                     
                 
             for i in range(n):
@@ -702,12 +745,24 @@ for thisTrial in trials:
     
             rect_r[p].pos = p_pos # directly update both x *and* y
             box.draw()
+            for j,i in enumerate(reward_list):
+                ind_tree = img_tree[i];
+                tree_pos_x = ind_tree.pos[0];
+                tree_pos_y= ind_tree.pos[1];
+                
+                if(abs(p_pos[0]-tree_pos_x)< 20 and  abs(p_pos[1]-tree_pos_y)< 20):
+                    cap_txt.text= "Reward Captured";
+                    del reward_list[j:j+1];
+                    cap_time = clock.getTime();
+                if(cap_time < clock.getTime()- 0.7 ):
+                    cap_txt.text= "Forage";
             
             for i in range(n):
                 rect_r[i].draw()
             
             for i in reward_list:
                 img_tree[i].draw()
+            cap_txt.draw();
             
             win.flip() # make the drawn things visible
     # keep track of which components have finished
