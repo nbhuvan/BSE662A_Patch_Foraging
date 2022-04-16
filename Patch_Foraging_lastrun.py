@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 """
 This experiment was created using PsychoPy3 Experiment Builder (v2021.2.3),
-    on Sat Apr 16 22:04:08 2022
+    on Sat Apr 16 23:34:19 2022
 If you publish work using this script the most relevant publication is:
 
     Peirce J, Gray JR, Simpson S, MacAskill M, Höchenberger R, Sogo H, Kastman E, Lindeløv JK. (2019) 
@@ -321,7 +321,7 @@ for thisTrial in trials:
         )
         size_x = img.size[0]
         size_y = img.size[1]
-        img.size = [size_x * 0.25, size_y * 0.25]
+        img.size = [size_x * 0.1, size_y * 0.1]
     #    print(img.size)
         img_tree.append(img)
     
@@ -333,7 +333,7 @@ for thisTrial in trials:
         )
         size_x = img.size[0]
         size_y = img.size[1]
-        img.size = [size_x * 0.25, size_y * 0.25]
+        img.size = [size_x * 0.1, size_y * 0.1]
         img_ltree.append(img)
         
     for i in range(state_r):
@@ -344,7 +344,7 @@ for thisTrial in trials:
         )
         size_x = img.size[0]
         size_y = img.size[1]
-        img.size = [size_x * 0.25, size_y * 0.25]
+        img.size = [size_x * 0.1, size_y * 0.1]
         img_rtree.append(img)
         
     #print(len(img_ltree))
@@ -545,8 +545,18 @@ for thisTrial in trials:
         fillColor= 'black',
         lineColor=[-1, -1, 1]
     )
+    cap_txt = visual.TextBox2(
+        win,
+        "",
+        font='Open Sans',
+        color=(1, 0, 0), 
+        colorSpace='rgb',
+       
+    )
+    cap_txt.height = 10;
+    cap_txt.draw()
     box.draw()
-    
+    print("Trial started");
     data = thisExp.getAllEntries()
     key = data[0]['key_resp.keys']
     
@@ -561,7 +571,7 @@ for thisTrial in trials:
         #        
         n = len(rect_l)
         p = random.randint(0,n-1)
-        print(key)
+       # print(key)
         clock = core.Clock()
     
         LEFT = -10
@@ -579,16 +589,17 @@ for thisTrial in trials:
         
         p_pos = rect_l[p].pos
         depriciated_reward =[];
-        reward_ctr = 2; 
+        
         reward_list = list(range(state_r));
-        print("state_r",state_r);
-    
+        #print("state_r",l_c);
+        dep_rate = 7 - l_c;
+        reward_ctr = dep_rate; 
         while clock.getTime()<10: # draw moving stimulus
             if(clock.getTime() > reward_ctr): 
-                reward_ctr= reward_ctr + 2; 
+                reward_ctr= reward_ctr + dep_rate; 
                 rnd = random.randint(0,len(reward_list))
                 del reward_list[rnd:rnd +1 ]
-                print(reward_list);
+               
             k = event.getKeys()
             if k: # if there was an actual key pressed:
                 if k[0] == 'left':
@@ -613,10 +624,22 @@ for thisTrial in trials:
     
             rect_l[p].pos = p_pos # directly update both x *and* y
             box.draw()
+            ind =1 ;
+            for j,i in enumerate(reward_list):
+                ind_tree = img_tree[i];
+                tree_pos_x = ind_tree.pos[0];
+                tree_pos_y= ind_tree.pos[1];
+                
+                if(abs(p_pos[0]-tree_pos_x)< 20 and  abs(p_pos[1]-tree_pos_y)< 20):
+                    cap_txt.text= "reward captured";
+                    del reward_list[j:j+1];
+                    
+                
             for i in range(n):
                 rect_l[i].draw()
             for i in reward_list:
                 img_tree[i].draw()
+            cap_txt.draw();
     
             win.flip() # make the drawn things visible
     else:
@@ -643,14 +666,15 @@ for thisTrial in trials:
     
         clock.reset()
         p_pos = rect_r[p].pos
-        reward_ctr = 2; 
         reward_list = list(range(state_r));
+        dep_rate = 7 - r_c;
+        reward_ctr = dep_rate; 
         print("state_r",state_r);
         while clock.getTime()<10: # draw moving stimulus
           
             if(clock.getTime() > reward_ctr): 
-                reward_ctr= reward_ctr + 2; 
-                rnd = random.randint(0,len(reward_list))
+                reward_ctr= reward_ctr + dep_rate; 
+                rnd = random.randint(0,len(reward_list)-1)
                 del reward_list[rnd:rnd +1 ]
                 #print(reward_list);
             
