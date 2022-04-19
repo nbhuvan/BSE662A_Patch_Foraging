@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 """
 This experiment was created using PsychoPy3 Experiment Builder (v2022.1.2),
-    on April 19, 2022, at 10:02
+    on April 19, 2022, at 10:57
 If you publish work using this script the most relevant publication is:
 
     Peirce J, Gray JR, Simpson S, MacAskill M, Höchenberger R, Sogo H, Kastman E, Lindeløv JK. (2019) 
@@ -57,7 +57,7 @@ filename = _thisDir + os.sep + u'data/%s_%s_%s' % (expInfo['participant'], expNa
 # An ExperimentHandler isn't essential but helps with data saving
 thisExp = data.ExperimentHandler(name=expName, version='',
     extraInfo=expInfo, runtimeInfo=None,
-    originPath='C:\\Users\\bhuva\\Documents\\GitHub\\BSE662A_Patch_Foraging\\Patch_Foraging_lastrun.py',
+    originPath='C:\\Users\\alokt\\OneDrive\\Documents\\GitHub\\BSE662A_Patch_Foraging\\Patch_Foraging_lastrun.py',
     savePickle=True, saveWideText=True,
     dataFileName=filename)
 # save a log file for detail verbose info
@@ -117,6 +117,8 @@ ViewPatchClock = core.Clock()
 #competitors = [[1,4],[5,1],[2,5]]
 ##competitors = [[1,4]]
 #
+
+total_reward_captured = 0;
 #state_c = random.randint(0,2)
 ##state_c = 0
 #state_t = random.randint(0,1)
@@ -714,6 +716,27 @@ for thisTrial in trials:
         colorSpace='rgb',
         letterHeight = 40
     )
+    total_reward_text = visual.TextBox2(
+        win,
+        "Total Reward Gained" ,
+        font='Open Sans',
+        units="pix",
+        color=(0, 1, 0), 
+        colorSpace='rgb',
+        letterHeight = 40
+    )
+    total_reward_text.pos = [780, -300]
+    
+    total_reward_box = visual.TextBox2(
+        win,
+        total_reward_captured,
+        font='Open Sans',
+        units="pix",
+        color=(0, 1, 0), 
+        colorSpace='rgb',
+        letterHeight = 40
+    )
+    total_reward_box.pos = [1280, -300]
     
     reward_txt = visual.TextBox2( # text showed when reward is caputures
         win,
@@ -781,7 +804,7 @@ for thisTrial in trials:
         else:
             dep_rate = 7 - l_c;
         reward_ctr = dep_rate;
-        attack_time = 2;
+        attack_time = 3;
         flag=0;
         while clock.getTime()<10: # draw moving stimulus
             if(clock.getTime() > reward_ctr):
@@ -794,7 +817,7 @@ for thisTrial in trials:
                 pred_y = random.randint(-250, 250)
     #            pred_x = pred_x - 250
                 if clock.getTime() > attack_time:
-                    attack_time = attack_time + 2
+                    attack_time = attack_time + 3
                     dist = []
                     del_comp = 0;
                     print("number of comp is ",len(rect_l))
@@ -802,7 +825,7 @@ for thisTrial in trials:
                         dist.append([pow(abs(rect_l[i].pos[0]-pred_x),2) + pow(abs(rect_l[i].pos[1]-pred_y),2),i])
                     dist.sort()
                     print(dist)
-                    if(dist[0][0] < 500000):
+                    if(dist[0][0] < 50000):
                         del_comp = dist[0][1];
     #                    print(i)
     #                    del rect_l[del_comp];
@@ -810,6 +833,7 @@ for thisTrial in trials:
     #                    print(del_comp)
                         if del_comp==p:
                             shock = -100
+                            total_reward_captured -= 100
                             cap_txt.text= "Attacked by Predator";
                             print("Attacked by Predator")
                             flag=1;
@@ -839,6 +863,7 @@ for thisTrial in trials:
                         del reward_list[i]
                         img_tree[j].pos = reward_treepos[reward_nc]
                         reward_captured += 100
+                        total_reward_captured += 100
                         cap_time = clock.getTime();
                         reward_nc +=1
                     # print("capture Time",cap_time);
@@ -847,6 +872,8 @@ for thisTrial in trials:
                     cap_txt.text= "Forage";
                 reward_box.draw()
                 reward_txt.draw()
+                total_reward_box.draw()
+                total_reward_text.draw()
                 for i in rect_list:
                     rect_l[i].draw()
                 for i in reward_list:
@@ -886,7 +913,7 @@ for thisTrial in trials:
         else:
             dep_rate = 7 - r_c;
         reward_ctr = dep_rate;
-        attack_time = 2;
+        attack_time = 3;
         flag=0;
         while clock.getTime()<10: # draw moving stimulus
             if(clock.getTime() > reward_ctr):
@@ -899,7 +926,7 @@ for thisTrial in trials:
                 pred_y = random.randint(-250, 250)
     #            pred_x = pred_x - 250
                 if clock.getTime() > attack_time:
-                    attack_time = attack_time + 2
+                    attack_time = attack_time + 3
                     dist = []
                     del_comp = 0;
                     print("number of comp is ",len(rect_r))
@@ -907,12 +934,13 @@ for thisTrial in trials:
                         dist.append([pow(abs(rect_r[i].pos[0]-pred_x),2) + pow(abs(rect_r[i].pos[1]-pred_y),2),i])
                     dist.sort()
                     print(dist)
-                    if(dist[0][0] < 500000):
+                    if(dist[0][0] < 50000):
                         del_comp = dist[0][1];
     #                    print(i)
     #                    del rect_r[del_comp];
                         if del_comp==p:
                             shock = -100
+                            total_reward_captured -= 100
                             cap_txt.text= "Attacked by Predator";
                             print("Attacked by Predator")
                             flag=1;
@@ -939,6 +967,7 @@ for thisTrial in trials:
                         del reward_list[i]
                         img_tree[j].pos = reward_treepos[reward_nc]
                         reward_captured += 100
+                        total_reward_captured += 100
                         cap_time = clock.getTime();
                         reward_nc +=1
                     # print("capture Time",cap_time);
@@ -947,6 +976,8 @@ for thisTrial in trials:
                     cap_txt.text= "Forage";
                 reward_box.draw()
                 reward_txt.draw()
+                total_reward_box.draw()
+                total_reward_text.draw()
                 for i in rect_list:
                     rect_r[i].draw()
                 for i in reward_list:
@@ -1003,6 +1034,7 @@ for thisTrial in trials:
             thisComponent.setAutoDraw(False)
     thisExp.addData('rewards_captured', reward_captured)
     thisExp.addData('shock', shock)
+    thisExp.addData('total_reward_captured', total_reward_captured)
     n_trials += 1
     #competitors = [[1,4],[5,1],[2,5]]
     ##competitors = [[1,4]]
