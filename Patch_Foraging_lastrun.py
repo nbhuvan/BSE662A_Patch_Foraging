@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 """
 This experiment was created using PsychoPy3 Experiment Builder (v2022.1.2),
-    on April 19, 2022, at 16:52
+    on April 21, 2022, at 18:53
 If you publish work using this script the most relevant publication is:
 
     Peirce J, Gray JR, Simpson S, MacAskill M, Höchenberger R, Sogo H, Kastman E, Lindeløv JK. (2019) 
@@ -111,6 +111,7 @@ exp_start = keyboard.Keyboard()
 # Initialize components for Routine "Code"
 CodeClock = core.Clock()
 n_trials = 0
+#k = event.getKeys()
 
 # Initialize components for Routine "ViewPatch"
 ViewPatchClock = core.Clock()
@@ -189,7 +190,7 @@ globalClock = core.Clock()  # to track the time since experiment started
 routineTimer = core.CountdownTimer()  # to track time remaining of each (non-slip) routine 
 
 # set up handler to look after randomisation of conditions etc
-trials = data.TrialHandler(nReps=5.0, method='random', 
+trials = data.TrialHandler(nReps=10.0, method='random', 
     extraInfo=expInfo, originPath=-1,
     trialList=[None],
     seed=None, name='trials')
@@ -324,16 +325,17 @@ for thisTrial in trials:
     
     def motion(p_pos): #motion function
         k = event.getKeys()
+        last_key = 0
         if k: # if there was an actual key pressed:
-            if k[0] == 'left':
+            if k[last_key] == 'left':
                 p_pos[0] += LEFT
-            elif k[0] == 'right':
+            elif k[last_key] == 'right':
                 p_pos[0] += RIGHT
-            elif k[0] == 'up':
+            elif k[last_key] == 'up':
                 p_pos[1] += RIGHT
-            elif k[0] == 'down':
+            elif k[last_key] == 'down':
                 p_pos[1] += LEFT
-            elif k[0] == 'q':
+            elif k[last_key] == 'q':
                 core.quit()
     #            
         if p_pos[0] > (200-15):
@@ -1135,7 +1137,7 @@ for thisTrial in trials:
             thisComponent.setAutoDraw(False)
     thisExp.nextEntry()
     
-# completed 5.0 repeats of 'trials'
+# completed 10.0 repeats of 'trials'
 
 
 # Flip one final time so any remaining win.callOnFlip() 

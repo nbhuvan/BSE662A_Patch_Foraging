@@ -1,0 +1,6 @@
+﻿trials.thisRepN,trials.thisTrialN,trials.thisN,trials.thisIndex,left_competitors,right_competitors,threat,no_rewards,key_resp.keys,key_resp.rt,rewards_captured,shock,total_reward_captured,participant,session,date,expName,psychopyVersion,frameRate,
+0,0,0,0,5,1,0,4,right,0.2843588999999156,400,0,400,trial12,001,2022-04-19_17h28.34.789,Patch_Foraging_19_12_30am,2022.1.2,59.888272438980266,
+1,0,1,0,1,4,1,4,right,0.2608508000000711,100,-100,400,trial12,001,2022-04-19_17h28.34.789,Patch_Foraging_19_12_30am,2022.1.2,59.888272438980266,
+2,0,2,0,2,5,0,4,left,0.05218839999974989,300,0,700,trial12,001,2022-04-19_17h28.34.789,Patch_Foraging_19_12_30am,2022.1.2,59.888272438980266,
+3,0,3,0,5,1,1,4,left,0.12850879999996323,100,-100,700,trial12,001,2022-04-19_17h28.34.789,Patch_Foraging_19_12_30am,2022.1.2,59.888272438980266,
+4,0,4,0,2,5,0,4,left,0.32120069999996304,300,0,1000,trial12,001,2022-04-19_17h28.34.789,Patch_Foraging_19_12_30am,2022.1.2,59.888272438980266,

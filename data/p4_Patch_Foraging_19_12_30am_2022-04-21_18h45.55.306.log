@@ -1,0 +1,719 @@
+2.1908 	WARNING 	We strongly recommend you activate the PTB sound engine in PsychoPy prefs as the preferred audio engine. Its timing is vastly superior. Your prefs are currently set to use ['sounddevice', 'PTB', 'pyo', 'pygame'] (in that order).
+10.2268 	WARNING 	User requested fullscreen with size [1440  900], but screen is actually [1920, 1080]. Using actual size
+13.1425 	EXP 	Created window1 = Window(allowGUI=False, allowStencil=False, autoLog=True, backendConf=UNKNOWN, bitsMode=UNKNOWN, blendMode='avg', bpc=(8, 8, 8), color=array([-1., -1., -1.]), colorSpace='rgb', depthBits=8, fullscr=<method-wrapper '__getattribute__' of attributeSetter object at 0x000001360A7F8EB0>, gamma=None, gammaErrorPolicy='raise', lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x000001360C528460>, multiSample=False, name='window1', numSamples=2, pos=(0, 0), screen=0, size=array([1920, 1080]), stencilBits=0, stereo=False, units='height', useFBO=True, useRetina=False, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+13.1428 	EXP 	window1: mouseVisible = True
+13.1428 	EXP 	window1: Attempting to measure frame rate of screen (0) ...
+13.1429 	EXP 	window1: recordFrameIntervals = False
+13.3083 	EXP 	window1: recordFrameIntervals = True
+13.4920 	EXP 	Screen (0) actual frame rate measured at 59.99Hz
+13.4920 	EXP 	window1: recordFrameIntervals = False
+15.3049 	EXP 	Created Welcometext = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='Welcometext', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='Welcome\nPlease press Spacebar to start', units='height', win=Window(...), wrapWidth=1)
+15.3170 	EXP 	Created text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='text', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+15.3174 	EXP 	Created sequence: random, trialTypes=1, nReps=10, seed=None
+15.3175 	EXP 	New trial (rep=0, index=0): None
+15.3227 	EXP 	Welcometext: autoDraw = True
+16.3500 	EXP 	Created unnamed Rect = Rect(__class__=<class 'psychopy.visual.rect.Rect'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=0, fillColor=array([ 1, -1, -1]), fillColorSpace='rgb', fillRGB=array([ 1, -1, -1]), interpolate=True, lineColor=array([-1., -1.,  1.]), lineColorSpace='rgb', lineRGB=array([-1, -1,  1]), lineWidth=1.5, name='unnamed Rect', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([1000.,  700.]), units='pix', vertices=ndarray(...), win=Window(...))
+16.3529 	EXP 	Created unnamed Rect = Rect(__class__=<class 'psychopy.visual.rect.Rect'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=0, fillColor=array([-1, -1, -1]), fillColorSpace='rgb', fillRGB=array([-1, -1, -1]), interpolate=True, lineColor=array([-1., -1.,  1.]), lineColorSpace='rgb', lineRGB=array([-1, -1,  1]), lineWidth=1.5, name='unnamed Rect', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([400., 600.]), units='pix', vertices=ndarray(...), win=Window(...))
+16.3555 	EXP 	Created unnamed Rect = Rect(__class__=<class 'psychopy.visual.rect.Rect'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=0, fillColor=array([-1, -1, -1]), fillColorSpace='rgb', fillRGB=array([-1, -1, -1]), interpolate=True, lineColor=array([-1., -1.,  1.]), lineColorSpace='rgb', lineRGB=array([-1, -1,  1]), lineWidth=1.5, name='unnamed Rect', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([400., 600.]), units='pix', vertices=ndarray(...), win=Window(...))
+16.3584 	EXP 	Created unnamed Rect = Rect(__class__=<class 'psychopy.visual.rect.Rect'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=0, fillColor=array([ 1,  1, -1]), fillColorSpace='rgb', fillRGB=array([ 1,  1, -1]), interpolate=True, lineColor=array([0., 0., 0.]), lineColorSpace='rgb', lineRGB=array([0, 0, 0]), lineWidth=1.5, name='unnamed Rect', opacity=0.5, ori=0.0, pos=array([0., 0.]), size=array([30., 30.]), units='pix', vertices=ndarray(...), win=Window(...))
+16.3608 	EXP 	Created unnamed Rect = Rect(__class__=<class 'psychopy.visual.rect.Rect'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=0, fillColor=array([ 1,  1, -1]), fillColorSpace='rgb', fillRGB=array([ 1,  1, -1]), interpolate=True, lineColor=array([0., 0., 0.]), lineColorSpace='rgb', lineRGB=array([0, 0, 0]), lineWidth=1.5, name='unnamed Rect', opacity=0.5, ori=0.0, pos=array([0., 0.]), size=array([30., 30.]), units='pix', vertices=ndarray(...), win=Window(...))
+16.3630 	EXP 	Created unnamed Rect = Rect(__class__=<class 'psychopy.visual.rect.Rect'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=0, fillColor=array([ 1,  1, -1]), fillColorSpace='rgb', fillRGB=array([ 1,  1, -1]), interpolate=True, lineColor=array([0., 0., 0.]), lineColorSpace='rgb', lineRGB=array([0, 0, 0]), lineWidth=1.5, name='unnamed Rect', opacity=0.5, ori=0.0, pos=array([0., 0.]), size=array([30., 30.]), units='pix', vertices=ndarray(...), win=Window(...))
+16.3649 	EXP 	Created unnamed Rect = Rect(__class__=<class 'psychopy.visual.rect.Rect'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=0, fillColor=array([ 1,  1, -1]), fillColorSpace='rgb', fillRGB=array([ 1,  1, -1]), interpolate=True, lineColor=array([0., 0., 0.]), lineColorSpace='rgb', lineRGB=array([0, 0, 0]), lineWidth=1.5, name='unnamed Rect', opacity=0.5, ori=0.0, pos=array([0., 0.]), size=array([30., 30.]), units='pix', vertices=ndarray(...), win=Window(...))
+16.3668 	EXP 	Created unnamed Rect = Rect(__class__=<class 'psychopy.visual.rect.Rect'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=0, fillColor=array([ 1,  1, -1]), fillColorSpace='rgb', fillRGB=array([ 1,  1, -1]), interpolate=True, lineColor=array([0., 0., 0.]), lineColorSpace='rgb', lineRGB=array([0, 0, 0]), lineWidth=1.5, name='unnamed Rect', opacity=0.5, ori=0.0, pos=array([0., 0.]), size=array([30., 30.]), units='pix', vertices=ndarray(...), win=Window(...))
+16.4003 	EXP 	Created unnamed ImageStim = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, flipHoriz=False, flipVert=False, image='tree.png', interpolate=False, mask=None, maskParams=None, name='unnamed ImageStim', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([512., 512.]), texRes=128, units='pix', win=Window(...))
+16.4219 	EXP 	Created unnamed ImageStim = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, flipHoriz=False, flipVert=False, image='tree.png', interpolate=False, mask=None, maskParams=None, name='unnamed ImageStim', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([512., 512.]), texRes=128, units='pix', win=Window(...))
+16.4434 	EXP 	Created unnamed ImageStim = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, flipHoriz=False, flipVert=False, image='tree.png', interpolate=False, mask=None, maskParams=None, name='unnamed ImageStim', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([512., 512.]), texRes=128, units='pix', win=Window(...))
+16.4647 	EXP 	Created unnamed ImageStim = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, flipHoriz=False, flipVert=False, image='tree.png', interpolate=False, mask=None, maskParams=None, name='unnamed ImageStim', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([512., 512.]), texRes=128, units='pix', win=Window(...))
+16.4872 	EXP 	Created unnamed ImageStim = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, flipHoriz=False, flipVert=False, image='tree.png', interpolate=False, mask=None, maskParams=None, name='unnamed ImageStim', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([512., 512.]), texRes=128, units='pix', win=Window(...))
+16.5088 	EXP 	Created unnamed ImageStim = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, flipHoriz=False, flipVert=False, image='tree.png', interpolate=False, mask=None, maskParams=None, name='unnamed ImageStim', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([512., 512.]), texRes=128, units='pix', win=Window(...))
+16.5299 	EXP 	Created unnamed ImageStim = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, flipHoriz=False, flipVert=False, image='tree.png', interpolate=False, mask=None, maskParams=None, name='unnamed ImageStim', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([512., 512.]), texRes=128, units='pix', win=Window(...))
+16.5530 	EXP 	Created unnamed ImageStim = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, flipHoriz=False, flipVert=False, image='tree.png', interpolate=False, mask=None, maskParams=None, name='unnamed ImageStim', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([512., 512.]), texRes=128, units='pix', win=Window(...))
+16.5748 	EXP 	Created unnamed ImageStim = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, flipHoriz=False, flipVert=False, image='tree.png', interpolate=False, mask=None, maskParams=None, name='unnamed ImageStim', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([512., 512.]), texRes=128, units='pix', win=Window(...))
+16.5965 	EXP 	Created unnamed ImageStim = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, flipHoriz=False, flipVert=False, image='tree.png', interpolate=False, mask=None, maskParams=None, name='unnamed ImageStim', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([512., 512.]), texRes=128, units='pix', win=Window(...))
+16.6189 	EXP 	Created unnamed ImageStim = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, flipHoriz=False, flipVert=False, image='tree.png', interpolate=False, mask=None, maskParams=None, name='unnamed ImageStim', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([512., 512.]), texRes=128, units='pix', win=Window(...))
+16.6410 	EXP 	Created unnamed ImageStim = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, flipHoriz=False, flipVert=False, image='tree.png', interpolate=False, mask=None, maskParams=None, name='unnamed ImageStim', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([512., 512.]), texRes=128, units='pix', win=Window(...))
+16.6469 	DATA 	Keypress: space
+16.6605 	EXP 	Welcometext: autoDraw = False
+17.8807 	DATA 	Keypress: right
+20.1308 	DATA 	Keypress: right
+20.7476 	DATA 	Keypress: right
+21.0807 	DATA 	Keypress: right
+21.4640 	DATA 	Keypress: right
+22.1775 	EXP 	Created unnamed Rect = Rect(__class__=<class 'psychopy.visual.rect.Rect'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=0, fillColor=array([-1, -1, -1]), fillColorSpace='rgb', fillRGB=array([-1, -1, -1]), interpolate=True, lineColor=array([-1., -1.,  1.]), lineColorSpace='rgb', lineRGB=array([-1, -1,  1]), lineWidth=1.5, name='unnamed Rect', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([400., 600.]), units='pix', vertices=ndarray(...), win=Window(...))
+22.3070 	EXP 	Created unnamed ImageStim = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, flipHoriz=False, flipVert=False, image='attacked.png', interpolate=False, mask=None, maskParams=None, name='unnamed ImageStim', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([1920., 1080.]), texRes=128, units='pix', win=Window(...))
+22.4154 	EXP 	Created unnamed Rect = Rect(__class__=<class 'psychopy.visual.rect.Rect'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=0, fillColor=array([-1, -1, -1]), fillColorSpace='rgb', fillRGB=array([-1, -1, -1]), interpolate=True, lineColor=array([-1.        ,  0.00392157, -1.        ]), lineColorSpace='rgb', lineRGB=array([-1.        ,  0.00392157, -1.        ]), lineWidth=1.5, name='unnamed Rect', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([240., 160.]), units='pix', vertices=ndarray(...), win=Window(...))
+22.4189 	EXP 	Created unnamed Rect = Rect(__class__=<class 'psychopy.visual.rect.Rect'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=0, fillColor=array([-1, -1, -1]), fillColorSpace='rgb', fillRGB=array([-1, -1, -1]), interpolate=True, lineColor=array([-1., -1.,  1.]), lineColorSpace='rgb', lineRGB=array([-1, -1,  1]), lineWidth=1.5, name='unnamed Rect', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([400., 600.]), units='pix', vertices=ndarray(...), win=Window(...))
+22.4192 	DATA 	Keypress: right
+22.8262 	DATA 	Keypress: down
+23.0269 	DATA 	Keypress: right
+23.4928 	DATA 	Keypress: down
+23.6931 	DATA 	Keypress: right
+23.8868 	DATA 	Keypress: down
+24.0824 	DATA 	Keypress: right
+24.2823 	DATA 	Keypress: left
+24.4993 	DATA 	Keypress: left
+24.6762 	DATA 	Keypress: left
+24.8663 	DATA 	Keypress: left
+25.0662 	DATA 	Keypress: left
+25.2831 	DATA 	Keypress: left
+25.4770 	DATA 	Keypress: left
+25.6938 	DATA 	Keypress: left
+25.9096 	DATA 	Keypress: left
+26.1261 	DATA 	Keypress: left
+26.3262 	DATA 	Keypress: left
+26.5433 	DATA 	Keypress: left
+26.7324 	DATA 	Keypress: left
+32.4422 	EXP 	text: autoDraw = True
+35.4261 	EXP 	New trial (rep=1, index=0): None
+35.4422 	EXP 	text: autoDraw = False
+35.4422 	EXP 	text: autoDraw = False
+35.4422 	EXP 	Welcometext: autoDraw = True
+36.3281 	EXP 	Created unnamed Rect = Rect(__class__=<class 'psychopy.visual.rect.Rect'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=0, fillColor=array([ 1, -1, -1]), fillColorSpace='rgb', fillRGB=array([ 1, -1, -1]), interpolate=True, lineColor=array([-1., -1.,  1.]), lineColorSpace='rgb', lineRGB=array([-1, -1,  1]), lineWidth=1.5, name='unnamed Rect', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([1000.,  700.]), units='pix', vertices=ndarray(...), win=Window(...))
+36.3293 	EXP 	Created unnamed Rect = Rect(__class__=<class 'psychopy.visual.rect.Rect'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=0, fillColor=array([-1, -1, -1]), fillColorSpace='rgb', fillRGB=array([-1, -1, -1]), interpolate=True, lineColor=array([-1., -1.,  1.]), lineColorSpace='rgb', lineRGB=array([-1, -1,  1]), lineWidth=1.5, name='unnamed Rect', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([400., 600.]), units='pix', vertices=ndarray(...), win=Window(...))
+36.3305 	EXP 	Created unnamed Rect = Rect(__class__=<class 'psychopy.visual.rect.Rect'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=0, fillColor=array([-1, -1, -1]), fillColorSpace='rgb', fillRGB=array([-1, -1, -1]), interpolate=True, lineColor=array([-1., -1.,  1.]), lineColorSpace='rgb', lineRGB=array([-1, -1,  1]), lineWidth=1.5, name='unnamed Rect', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([400., 600.]), units='pix', vertices=ndarray(...), win=Window(...))
+36.3321 	EXP 	Created unnamed Rect = Rect(__class__=<class 'psychopy.visual.rect.Rect'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=0, fillColor=array([ 1,  1, -1]), fillColorSpace='rgb', fillRGB=array([ 1,  1, -1]), interpolate=True, lineColor=array([0., 0., 0.]), lineColorSpace='rgb', lineRGB=array([0, 0, 0]), lineWidth=1.5, name='unnamed Rect', opacity=0.5, ori=0.0, pos=array([0., 0.]), size=array([30., 30.]), units='pix', vertices=ndarray(...), win=Window(...))
+36.3335 	EXP 	Created unnamed Rect = Rect(__class__=<class 'psychopy.visual.rect.Rect'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=0, fillColor=array([ 1,  1, -1]), fillColorSpace='rgb', fillRGB=array([ 1,  1, -1]), interpolate=True, lineColor=array([0., 0., 0.]), lineColorSpace='rgb', lineRGB=array([0, 0, 0]), lineWidth=1.5, name='unnamed Rect', opacity=0.5, ori=0.0, pos=array([0., 0.]), size=array([30., 30.]), units='pix', vertices=ndarray(...), win=Window(...))
+36.3348 	EXP 	Created unnamed Rect = Rect(__class__=<class 'psychopy.visual.rect.Rect'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=0, fillColor=array([ 1,  1, -1]), fillColorSpace='rgb', fillRGB=array([ 1,  1, -1]), interpolate=True, lineColor=array([0., 0., 0.]), lineColorSpace='rgb', lineRGB=array([0, 0, 0]), lineWidth=1.5, name='unnamed Rect', opacity=0.5, ori=0.0, pos=array([0., 0.]), size=array([30., 30.]), units='pix', vertices=ndarray(...), win=Window(...))
+36.3361 	EXP 	Created unnamed Rect = Rect(__class__=<class 'psychopy.visual.rect.Rect'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=0, fillColor=array([ 1,  1, -1]), fillColorSpace='rgb', fillRGB=array([ 1,  1, -1]), interpolate=True, lineColor=array([0., 0., 0.]), lineColorSpace='rgb', lineRGB=array([0, 0, 0]), lineWidth=1.5, name='unnamed Rect', opacity=0.5, ori=0.0, pos=array([0., 0.]), size=array([30., 30.]), units='pix', vertices=ndarray(...), win=Window(...))
+36.3375 	EXP 	Created unnamed Rect = Rect(__class__=<class 'psychopy.visual.rect.Rect'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=0, fillColor=array([ 1,  1, -1]), fillColorSpace='rgb', fillRGB=array([ 1,  1, -1]), interpolate=True, lineColor=array([0., 0., 0.]), lineColorSpace='rgb', lineRGB=array([0, 0, 0]), lineWidth=1.5, name='unnamed Rect', opacity=0.5, ori=0.0, pos=array([0., 0.]), size=array([30., 30.]), units='pix', vertices=ndarray(...), win=Window(...))
+36.3612 	EXP 	Created unnamed ImageStim = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, flipHoriz=False, flipVert=False, image='tree.png', interpolate=False, mask=None, maskParams=None, name='unnamed ImageStim', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([512., 512.]), texRes=128, units='pix', win=Window(...))
+36.3888 	EXP 	Created unnamed ImageStim = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, flipHoriz=False, flipVert=False, image='tree.png', interpolate=False, mask=None, maskParams=None, name='unnamed ImageStim', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([512., 512.]), texRes=128, units='pix', win=Window(...))
+36.4163 	EXP 	Created unnamed ImageStim = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, flipHoriz=False, flipVert=False, image='tree.png', interpolate=False, mask=None, maskParams=None, name='unnamed ImageStim', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([512., 512.]), texRes=128, units='pix', win=Window(...))
+36.4197 	DATA 	Keypress: space
+36.4252 	EXP 	Welcometext: autoDraw = False
+38.2292 	DATA 	Keypress: left
+38.4622 	DATA 	Keypress: left
+38.6803 	DATA 	Keypress: left
+38.8970 	DATA 	Keypress: left
+39.1290 	DATA 	Keypress: left
+39.3462 	DATA 	Keypress: left
+39.5630 	DATA 	Keypress: left
+39.7963 	DATA 	Keypress: left
+40.0294 	DATA 	Keypress: left
+40.2627 	DATA 	Keypress: left
+40.4953 	DATA 	Keypress: left
+40.7125 	DATA 	Keypress: left
+40.9457 	DATA 	Keypress: left
+41.6992 	EXP 	Created unnamed Rect = Rect(__class__=<class 'psychopy.visual.rect.Rect'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=0, fillColor=array([-1, -1, -1]), fillColorSpace='rgb', fillRGB=array([-1, -1, -1]), interpolate=True, lineColor=array([-1., -1.,  1.]), lineColorSpace='rgb', lineRGB=array([-1, -1,  1]), lineWidth=1.5, name='unnamed Rect', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([400., 600.]), units='pix', vertices=ndarray(...), win=Window(...))
+41.8768 	EXP 	Created unnamed ImageStim = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, flipHoriz=False, flipVert=False, image='attacked.png', interpolate=False, mask=None, maskParams=None, name='unnamed ImageStim', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([1920., 1080.]), texRes=128, units='pix', win=Window(...))
+41.9244 	EXP 	Created unnamed Rect = Rect(__class__=<class 'psychopy.visual.rect.Rect'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=0, fillColor=array([-1, -1, -1]), fillColorSpace='rgb', fillRGB=array([-1, -1, -1]), interpolate=True, lineColor=array([-1.        ,  0.00392157, -1.        ]), lineColorSpace='rgb', lineRGB=array([-1.        ,  0.00392157, -1.        ]), lineWidth=1.5, name='unnamed Rect', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([240., 160.]), units='pix', vertices=ndarray(...), win=Window(...))
+41.9276 	EXP 	Created unnamed Rect = Rect(__class__=<class 'psychopy.visual.rect.Rect'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=0, fillColor=array([-1, -1, -1]), fillColorSpace='rgb', fillRGB=array([-1, -1, -1]), interpolate=True, lineColor=array([-1., -1.,  1.]), lineColorSpace='rgb', lineRGB=array([-1, -1,  1]), lineWidth=1.5, name='unnamed Rect', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([400., 600.]), units='pix', vertices=ndarray(...), win=Window(...))
+41.9278 	DATA 	Keypress: left
+42.2988 	DATA 	Keypress: down
+42.5156 	DATA 	Keypress: right
+42.5430 	DATA 	Keypress: down
+42.8095 	DATA 	Keypress: down
+42.9937 	DATA 	Keypress: down
+43.1652 	DATA 	Keypress: right
+43.3764 	DATA 	Keypress: down
+43.5929 	DATA 	Keypress: down
+43.7429 	DATA 	Keypress: right
+43.8320 	DATA 	Keypress: down
+44.0320 	DATA 	Keypress: right
+44.0487 	DATA 	Keypress: down
+44.2317 	DATA 	Keypress: right
+44.2929 	DATA 	Keypress: down
+44.5097 	DATA 	Keypress: right
+44.5601 	DATA 	Keypress: down
+44.7766 	DATA 	Keypress: right
+44.8320 	DATA 	Keypress: down
+45.0598 	DATA 	Keypress: right
+45.1153 	DATA 	Keypress: down
+45.3265 	DATA 	Keypress: right
+45.4095 	DATA 	Keypress: down
+45.6429 	DATA 	Keypress: right
+45.6595 	DATA 	Keypress: down
+45.8429 	DATA 	Keypress: right
+45.8763 	DATA 	Keypress: down
+46.1095 	DATA 	Keypress: right
+46.1262 	DATA 	Keypress: down
+46.2765 	DATA 	Keypress: left
+46.4317 	DATA 	Keypress: down
+51.9651 	EXP 	text: autoDraw = True
+54.9596 	EXP 	New trial (rep=2, index=0): None
+54.9756 	EXP 	text: autoDraw = False
+54.9756 	EXP 	text: autoDraw = False
+54.9756 	EXP 	Welcometext: autoDraw = True
+56.3623 	EXP 	Created unnamed Rect = Rect(__class__=<class 'psychopy.visual.rect.Rect'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=0, fillColor=array([ 1, -1, -1]), fillColorSpace='rgb', fillRGB=array([ 1, -1, -1]), interpolate=True, lineColor=array([-1., -1.,  1.]), lineColorSpace='rgb', lineRGB=array([-1, -1,  1]), lineWidth=1.5, name='unnamed Rect', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([1000.,  700.]), units='pix', vertices=ndarray(...), win=Window(...))
+56.3641 	EXP 	Created unnamed Rect = Rect(__class__=<class 'psychopy.visual.rect.Rect'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=0, fillColor=array([-1, -1, -1]), fillColorSpace='rgb', fillRGB=array([-1, -1, -1]), interpolate=True, lineColor=array([-1., -1.,  1.]), lineColorSpace='rgb', lineRGB=array([-1, -1,  1]), lineWidth=1.5, name='unnamed Rect', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([400., 600.]), units='pix', vertices=ndarray(...), win=Window(...))
+56.3655 	EXP 	Created unnamed Rect = Rect(__class__=<class 'psychopy.visual.rect.Rect'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=0, fillColor=array([-1, -1, -1]), fillColorSpace='rgb', fillRGB=array([-1, -1, -1]), interpolate=True, lineColor=array([-1., -1.,  1.]), lineColorSpace='rgb', lineRGB=array([-1, -1,  1]), lineWidth=1.5, name='unnamed Rect', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([400., 600.]), units='pix', vertices=ndarray(...), win=Window(...))
+56.3668 	EXP 	Created unnamed Rect = Rect(__class__=<class 'psychopy.visual.rect.Rect'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=0, fillColor=array([ 1,  1, -1]), fillColorSpace='rgb', fillRGB=array([ 1,  1, -1]), interpolate=True, lineColor=array([0., 0., 0.]), lineColorSpace='rgb', lineRGB=array([0, 0, 0]), lineWidth=1.5, name='unnamed Rect', opacity=0.5, ori=0.0, pos=array([0., 0.]), size=array([30., 30.]), units='pix', vertices=ndarray(...), win=Window(...))
+56.3681 	EXP 	Created unnamed Rect = Rect(__class__=<class 'psychopy.visual.rect.Rect'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=0, fillColor=array([ 1,  1, -1]), fillColorSpace='rgb', fillRGB=array([ 1,  1, -1]), interpolate=True, lineColor=array([0., 0., 0.]), lineColorSpace='rgb', lineRGB=array([0, 0, 0]), lineWidth=1.5, name='unnamed Rect', opacity=0.5, ori=0.0, pos=array([0., 0.]), size=array([30., 30.]), units='pix', vertices=ndarray(...), win=Window(...))
+56.3695 	EXP 	Created unnamed Rect = Rect(__class__=<class 'psychopy.visual.rect.Rect'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=0, fillColor=array([ 1,  1, -1]), fillColorSpace='rgb', fillRGB=array([ 1,  1, -1]), interpolate=True, lineColor=array([0., 0., 0.]), lineColorSpace='rgb', lineRGB=array([0, 0, 0]), lineWidth=1.5, name='unnamed Rect', opacity=0.5, ori=0.0, pos=array([0., 0.]), size=array([30., 30.]), units='pix', vertices=ndarray(...), win=Window(...))
+56.3709 	EXP 	Created unnamed Rect = Rect(__class__=<class 'psychopy.visual.rect.Rect'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=0, fillColor=array([ 1,  1, -1]), fillColorSpace='rgb', fillRGB=array([ 1,  1, -1]), interpolate=True, lineColor=array([0., 0., 0.]), lineColorSpace='rgb', lineRGB=array([0, 0, 0]), lineWidth=1.5, name='unnamed Rect', opacity=0.5, ori=0.0, pos=array([0., 0.]), size=array([30., 30.]), units='pix', vertices=ndarray(...), win=Window(...))
+56.3722 	EXP 	Created unnamed Rect = Rect(__class__=<class 'psychopy.visual.rect.Rect'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=0, fillColor=array([ 1,  1, -1]), fillColorSpace='rgb', fillRGB=array([ 1,  1, -1]), interpolate=True, lineColor=array([0., 0., 0.]), lineColorSpace='rgb', lineRGB=array([0, 0, 0]), lineWidth=1.5, name='unnamed Rect', opacity=0.5, ori=0.0, pos=array([0., 0.]), size=array([30., 30.]), units='pix', vertices=ndarray(...), win=Window(...))
+56.3735 	EXP 	Created unnamed Rect = Rect(__class__=<class 'psychopy.visual.rect.Rect'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=0, fillColor=array([ 1,  1, -1]), fillColorSpace='rgb', fillRGB=array([ 1,  1, -1]), interpolate=True, lineColor=array([0., 0., 0.]), lineColorSpace='rgb', lineRGB=array([0, 0, 0]), lineWidth=1.5, name='unnamed Rect', opacity=0.5, ori=0.0, pos=array([0., 0.]), size=array([30., 30.]), units='pix', vertices=ndarray(...), win=Window(...))
+56.3749 	EXP 	Created unnamed Rect = Rect(__class__=<class 'psychopy.visual.rect.Rect'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=0, fillColor=array([ 1,  1, -1]), fillColorSpace='rgb', fillRGB=array([ 1,  1, -1]), interpolate=True, lineColor=array([0., 0., 0.]), lineColorSpace='rgb', lineRGB=array([0, 0, 0]), lineWidth=1.5, name='unnamed Rect', opacity=0.5, ori=0.0, pos=array([0., 0.]), size=array([30., 30.]), units='pix', vertices=ndarray(...), win=Window(...))
+56.4029 	EXP 	Created unnamed ImageStim = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, flipHoriz=False, flipVert=False, image='tree.png', interpolate=False, mask=None, maskParams=None, name='unnamed ImageStim', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([512., 512.]), texRes=128, units='pix', win=Window(...))
+56.4312 	EXP 	Created unnamed ImageStim = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, flipHoriz=False, flipVert=False, image='tree.png', interpolate=False, mask=None, maskParams=None, name='unnamed ImageStim', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([512., 512.]), texRes=128, units='pix', win=Window(...))
+56.4593 	EXP 	Created unnamed ImageStim = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, flipHoriz=False, flipVert=False, image='tree.png', interpolate=False, mask=None, maskParams=None, name='unnamed ImageStim', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([512., 512.]), texRes=128, units='pix', win=Window(...))
+56.4646 	DATA 	Keypress: space
+56.4710 	EXP 	Welcometext: autoDraw = False
+58.3641 	DATA 	Keypress: right
+58.6474 	DATA 	Keypress: right
+58.9474 	DATA 	Keypress: right
+59.2304 	DATA 	Keypress: right
+59.4976 	DATA 	Keypress: right
+59.7643 	DATA 	Keypress: right
+60.0139 	DATA 	Keypress: right
+60.2142 	DATA 	Keypress: right
+60.4476 	DATA 	Keypress: right
+60.6480 	DATA 	Keypress: right
+60.9307 	DATA 	Keypress: right
+61.2976 	DATA 	Keypress: right
+61.7453 	EXP 	Created unnamed Rect = Rect(__class__=<class 'psychopy.visual.rect.Rect'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=0, fillColor=array([-1, -1, -1]), fillColorSpace='rgb', fillRGB=array([-1, -1, -1]), interpolate=True, lineColor=array([-1., -1.,  1.]), lineColorSpace='rgb', lineRGB=array([-1, -1,  1]), lineWidth=1.5, name='unnamed Rect', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([400., 600.]), units='pix', vertices=ndarray(...), win=Window(...))
+61.9067 	EXP 	Created unnamed ImageStim = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, flipHoriz=False, flipVert=False, image='attacked.png', interpolate=False, mask=None, maskParams=None, name='unnamed ImageStim', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([1920., 1080.]), texRes=128, units='pix', win=Window(...))
+61.9564 	EXP 	Created unnamed Rect = Rect(__class__=<class 'psychopy.visual.rect.Rect'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=0, fillColor=array([-1, -1, -1]), fillColorSpace='rgb', fillRGB=array([-1, -1, -1]), interpolate=True, lineColor=array([-1.        ,  0.00392157, -1.        ]), lineColorSpace='rgb', lineRGB=array([-1.        ,  0.00392157, -1.        ]), lineWidth=1.5, name='unnamed Rect', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([240., 160.]), units='pix', vertices=ndarray(...), win=Window(...))
+61.9597 	EXP 	Created unnamed Rect = Rect(__class__=<class 'psychopy.visual.rect.Rect'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=0, fillColor=array([-1, -1, -1]), fillColorSpace='rgb', fillRGB=array([-1, -1, -1]), interpolate=True, lineColor=array([-1., -1.,  1.]), lineColorSpace='rgb', lineRGB=array([-1, -1,  1]), lineWidth=1.5, name='unnamed Rect', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([400., 600.]), units='pix', vertices=ndarray(...), win=Window(...))
+61.9600 	DATA 	Keypress: right
+62.2766 	DATA 	Keypress: down
+62.4769 	DATA 	Keypress: down
+62.6595 	DATA 	Keypress: left
+62.7831 	DATA 	Keypress: down
+62.9331 	DATA 	Keypress: left
+62.9995 	DATA 	Keypress: down
+63.1431 	DATA 	Keypress: left
+63.2275 	DATA 	Keypress: down
+63.4097 	DATA 	Keypress: down
+63.5769 	DATA 	Keypress: down
+63.7435 	DATA 	Keypress: down
+64.0930 	DATA 	Keypress: down
+64.3329 	DATA 	Keypress: down
+64.4930 	DATA 	Keypress: down
+64.6763 	DATA 	Keypress: left
+64.7930 	DATA 	Keypress: down
+64.9603 	DATA 	Keypress: down
+65.1265 	DATA 	Keypress: down
+65.2995 	DATA 	Keypress: down
+65.4661 	DATA 	Keypress: down
+65.6330 	DATA 	Keypress: down
+65.8101 	DATA 	Keypress: down
+65.9825 	DATA 	Keypress: down
+66.1598 	DATA 	Keypress: down
+66.3330 	DATA 	Keypress: down
+66.5101 	DATA 	Keypress: down
+66.6830 	DATA 	Keypress: down
+66.8684 	DATA 	Keypress: down
+67.0430 	DATA 	Keypress: down
+67.2270 	DATA 	Keypress: down
+67.4099 	DATA 	Keypress: down
+67.5828 	DATA 	Keypress: down
+67.7606 	DATA 	Keypress: down
+67.9506 	DATA 	Keypress: down
+68.1098 	DATA 	Keypress: down
+68.3103 	DATA 	Keypress: down
+68.4937 	DATA 	Keypress: down
+68.7276 	DATA 	Keypress: left
+69.2769 	DATA 	Keypress: left
+71.9924 	EXP 	text: autoDraw = True
+74.9762 	EXP 	New trial (rep=3, index=0): None
+74.9922 	EXP 	text: autoDraw = False
+74.9922 	EXP 	text: autoDraw = False
+74.9922 	EXP 	Welcometext: autoDraw = True
+76.3949 	EXP 	Created unnamed Rect = Rect(__class__=<class 'psychopy.visual.rect.Rect'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=0, fillColor=array([ 1, -1, -1]), fillColorSpace='rgb', fillRGB=array([ 1, -1, -1]), interpolate=True, lineColor=array([-1., -1.,  1.]), lineColorSpace='rgb', lineRGB=array([-1, -1,  1]), lineWidth=1.5, name='unnamed Rect', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([1000.,  700.]), units='pix', vertices=ndarray(...), win=Window(...))
+76.3961 	EXP 	Created unnamed Rect = Rect(__class__=<class 'psychopy.visual.rect.Rect'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=0, fillColor=array([-1, -1, -1]), fillColorSpace='rgb', fillRGB=array([-1, -1, -1]), interpolate=True, lineColor=array([-1., -1.,  1.]), lineColorSpace='rgb', lineRGB=array([-1, -1,  1]), lineWidth=1.5, name='unnamed Rect', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([400., 600.]), units='pix', vertices=ndarray(...), win=Window(...))
+76.3973 	EXP 	Created unnamed Rect = Rect(__class__=<class 'psychopy.visual.rect.Rect'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=0, fillColor=array([-1, -1, -1]), fillColorSpace='rgb', fillRGB=array([-1, -1, -1]), interpolate=True, lineColor=array([-1., -1.,  1.]), lineColorSpace='rgb', lineRGB=array([-1, -1,  1]), lineWidth=1.5, name='unnamed Rect', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([400., 600.]), units='pix', vertices=ndarray(...), win=Window(...))
+76.3988 	EXP 	Created unnamed Rect = Rect(__class__=<class 'psychopy.visual.rect.Rect'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=0, fillColor=array([ 1,  1, -1]), fillColorSpace='rgb', fillRGB=array([ 1,  1, -1]), interpolate=True, lineColor=array([0., 0., 0.]), lineColorSpace='rgb', lineRGB=array([0, 0, 0]), lineWidth=1.5, name='unnamed Rect', opacity=0.5, ori=0.0, pos=array([0., 0.]), size=array([30., 30.]), units='pix', vertices=ndarray(...), win=Window(...))
+76.4001 	EXP 	Created unnamed Rect = Rect(__class__=<class 'psychopy.visual.rect.Rect'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=0, fillColor=array([ 1,  1, -1]), fillColorSpace='rgb', fillRGB=array([ 1,  1, -1]), interpolate=True, lineColor=array([0., 0., 0.]), lineColorSpace='rgb', lineRGB=array([0, 0, 0]), lineWidth=1.5, name='unnamed Rect', opacity=0.5, ori=0.0, pos=array([0., 0.]), size=array([30., 30.]), units='pix', vertices=ndarray(...), win=Window(...))
+76.4014 	EXP 	Created unnamed Rect = Rect(__class__=<class 'psychopy.visual.rect.Rect'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=0, fillColor=array([ 1,  1, -1]), fillColorSpace='rgb', fillRGB=array([ 1,  1, -1]), interpolate=True, lineColor=array([0., 0., 0.]), lineColorSpace='rgb', lineRGB=array([0, 0, 0]), lineWidth=1.5, name='unnamed Rect', opacity=0.5, ori=0.0, pos=array([0., 0.]), size=array([30., 30.]), units='pix', vertices=ndarray(...), win=Window(...))
+76.4028 	EXP 	Created unnamed Rect = Rect(__class__=<class 'psychopy.visual.rect.Rect'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=0, fillColor=array([ 1,  1, -1]), fillColorSpace='rgb', fillRGB=array([ 1,  1, -1]), interpolate=True, lineColor=array([0., 0., 0.]), lineColorSpace='rgb', lineRGB=array([0, 0, 0]), lineWidth=1.5, name='unnamed Rect', opacity=0.5, ori=0.0, pos=array([0., 0.]), size=array([30., 30.]), units='pix', vertices=ndarray(...), win=Window(...))
+76.4041 	EXP 	Created unnamed Rect = Rect(__class__=<class 'psychopy.visual.rect.Rect'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=0, fillColor=array([ 1,  1, -1]), fillColorSpace='rgb', fillRGB=array([ 1,  1, -1]), interpolate=True, lineColor=array([0., 0., 0.]), lineColorSpace='rgb', lineRGB=array([0, 0, 0]), lineWidth=1.5, name='unnamed Rect', opacity=0.5, ori=0.0, pos=array([0., 0.]), size=array([30., 30.]), units='pix', vertices=ndarray(...), win=Window(...))
+76.4313 	EXP 	Created unnamed ImageStim = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, flipHoriz=False, flipVert=False, image='tree.png', interpolate=False, mask=None, maskParams=None, name='unnamed ImageStim', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([512., 512.]), texRes=128, units='pix', win=Window(...))
+76.4581 	EXP 	Created unnamed ImageStim = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, flipHoriz=False, flipVert=False, image='tree.png', interpolate=False, mask=None, maskParams=None, name='unnamed ImageStim', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([512., 512.]), texRes=128, units='pix', win=Window(...))
+76.4897 	EXP 	Created unnamed ImageStim = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, flipHoriz=False, flipVert=False, image='tree.png', interpolate=False, mask=None, maskParams=None, name='unnamed ImageStim', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([512., 512.]), texRes=128, units='pix', win=Window(...))
+76.4931 	DATA 	Keypress: space
+76.4987 	EXP 	Welcometext: autoDraw = False
+77.6124 	DATA 	Keypress: left
+77.8626 	DATA 	Keypress: left
+78.1125 	DATA 	Keypress: left
+78.3466 	DATA 	Keypress: left
+78.5800 	DATA 	Keypress: left
+81.7616 	EXP 	Created unnamed Rect = Rect(__class__=<class 'psychopy.visual.rect.Rect'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=0, fillColor=array([-1, -1, -1]), fillColorSpace='rgb', fillRGB=array([-1, -1, -1]), interpolate=True, lineColor=array([-1., -1.,  1.]), lineColorSpace='rgb', lineRGB=array([-1, -1,  1]), lineWidth=1.5, name='unnamed Rect', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([400., 600.]), units='pix', vertices=ndarray(...), win=Window(...))
+81.9157 	EXP 	Created unnamed ImageStim = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, flipHoriz=False, flipVert=False, image='attacked.png', interpolate=False, mask=None, maskParams=None, name='unnamed ImageStim', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([1920., 1080.]), texRes=128, units='pix', win=Window(...))
+81.9649 	EXP 	Created unnamed Rect = Rect(__class__=<class 'psychopy.visual.rect.Rect'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=0, fillColor=array([-1, -1, -1]), fillColorSpace='rgb', fillRGB=array([-1, -1, -1]), interpolate=True, lineColor=array([-1.        ,  0.00392157, -1.        ]), lineColorSpace='rgb', lineRGB=array([-1.        ,  0.00392157, -1.        ]), lineWidth=1.5, name='unnamed Rect', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([240., 160.]), units='pix', vertices=ndarray(...), win=Window(...))
+81.9680 	EXP 	Created unnamed Rect = Rect(__class__=<class 'psychopy.visual.rect.Rect'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=0, fillColor=array([-1, -1, -1]), fillColorSpace='rgb', fillRGB=array([-1, -1, -1]), interpolate=True, lineColor=array([-1., -1.,  1.]), lineColorSpace='rgb', lineRGB=array([-1, -1,  1]), lineWidth=1.5, name='unnamed Rect', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([400., 600.]), units='pix', vertices=ndarray(...), win=Window(...))
+81.9683 	DATA 	Keypress: left
+82.0822 	DATA 	Keypress: left
+82.2439 	DATA 	Keypress: up
+82.4934 	DATA 	Keypress: up
+82.7107 	DATA 	Keypress: left
+82.7442 	DATA 	Keypress: up
+82.9487 	DATA 	Keypress: down
+83.1599 	DATA 	Keypress: down
+83.3154 	DATA 	Keypress: down
+83.4822 	DATA 	Keypress: down
+83.6438 	DATA 	Keypress: down
+83.8009 	DATA 	Keypress: down
+83.9771 	DATA 	Keypress: down
+84.1490 	DATA 	Keypress: down
+84.3269 	DATA 	Keypress: down
+84.5100 	DATA 	Keypress: down
+84.6824 	DATA 	Keypress: down
+84.8106 	DATA 	Keypress: down
+85.0322 	DATA 	Keypress: down
+85.2154 	DATA 	Keypress: down
+85.3767 	DATA 	Keypress: down
+85.5603 	DATA 	Keypress: down
+85.7490 	DATA 	Keypress: down
+85.9600 	DATA 	Keypress: down
+86.1098 	DATA 	Keypress: down
+86.3099 	DATA 	Keypress: down
+86.4931 	DATA 	Keypress: down
+86.6766 	DATA 	Keypress: down
+86.8657 	DATA 	Keypress: down
+87.0656 	DATA 	Keypress: down
+87.2765 	DATA 	Keypress: down
+87.4769 	DATA 	Keypress: down
+87.6496 	DATA 	Keypress: down
+87.8323 	DATA 	Keypress: down
+88.0153 	DATA 	Keypress: down
+88.1937 	DATA 	Keypress: down
+88.3766 	DATA 	Keypress: down
+88.5491 	DATA 	Keypress: down
+88.7437 	DATA 	Keypress: down
+91.9927 	EXP 	text: autoDraw = True
+94.9767 	EXP 	New trial (rep=4, index=0): None
+94.9926 	EXP 	text: autoDraw = False
+94.9926 	EXP 	text: autoDraw = False
+94.9926 	EXP 	Welcometext: autoDraw = True
+98.2115 	EXP 	Created unnamed Rect = Rect(__class__=<class 'psychopy.visual.rect.Rect'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=0, fillColor=array([ 1, -1, -1]), fillColorSpace='rgb', fillRGB=array([ 1, -1, -1]), interpolate=True, lineColor=array([-1., -1.,  1.]), lineColorSpace='rgb', lineRGB=array([-1, -1,  1]), lineWidth=1.5, name='unnamed Rect', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([1000.,  700.]), units='pix', vertices=ndarray(...), win=Window(...))
+98.2126 	EXP 	Created unnamed Rect = Rect(__class__=<class 'psychopy.visual.rect.Rect'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=0, fillColor=array([-1, -1, -1]), fillColorSpace='rgb', fillRGB=array([-1, -1, -1]), interpolate=True, lineColor=array([-1., -1.,  1.]), lineColorSpace='rgb', lineRGB=array([-1, -1,  1]), lineWidth=1.5, name='unnamed Rect', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([400., 600.]), units='pix', vertices=ndarray(...), win=Window(...))
+98.2137 	EXP 	Created unnamed Rect = Rect(__class__=<class 'psychopy.visual.rect.Rect'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=0, fillColor=array([-1, -1, -1]), fillColorSpace='rgb', fillRGB=array([-1, -1, -1]), interpolate=True, lineColor=array([-1., -1.,  1.]), lineColorSpace='rgb', lineRGB=array([-1, -1,  1]), lineWidth=1.5, name='unnamed Rect', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([400., 600.]), units='pix', vertices=ndarray(...), win=Window(...))
+98.2150 	EXP 	Created unnamed Rect = Rect(__class__=<class 'psychopy.visual.rect.Rect'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=0, fillColor=array([ 1,  1, -1]), fillColorSpace='rgb', fillRGB=array([ 1,  1, -1]), interpolate=True, lineColor=array([0., 0., 0.]), lineColorSpace='rgb', lineRGB=array([0, 0, 0]), lineWidth=1.5, name='unnamed Rect', opacity=0.5, ori=0.0, pos=array([0., 0.]), size=array([30., 30.]), units='pix', vertices=ndarray(...), win=Window(...))
+98.2163 	EXP 	Created unnamed Rect = Rect(__class__=<class 'psychopy.visual.rect.Rect'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=0, fillColor=array([ 1,  1, -1]), fillColorSpace='rgb', fillRGB=array([ 1,  1, -1]), interpolate=True, lineColor=array([0., 0., 0.]), lineColorSpace='rgb', lineRGB=array([0, 0, 0]), lineWidth=1.5, name='unnamed Rect', opacity=0.5, ori=0.0, pos=array([0., 0.]), size=array([30., 30.]), units='pix', vertices=ndarray(...), win=Window(...))
+98.2177 	EXP 	Created unnamed Rect = Rect(__class__=<class 'psychopy.visual.rect.Rect'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=0, fillColor=array([ 1,  1, -1]), fillColorSpace='rgb', fillRGB=array([ 1,  1, -1]), interpolate=True, lineColor=array([0., 0., 0.]), lineColorSpace='rgb', lineRGB=array([0, 0, 0]), lineWidth=1.5, name='unnamed Rect', opacity=0.5, ori=0.0, pos=array([0., 0.]), size=array([30., 30.]), units='pix', vertices=ndarray(...), win=Window(...))
+98.2190 	EXP 	Created unnamed Rect = Rect(__class__=<class 'psychopy.visual.rect.Rect'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=0, fillColor=array([ 1,  1, -1]), fillColorSpace='rgb', fillRGB=array([ 1,  1, -1]), interpolate=True, lineColor=array([0., 0., 0.]), lineColorSpace='rgb', lineRGB=array([0, 0, 0]), lineWidth=1.5, name='unnamed Rect', opacity=0.5, ori=0.0, pos=array([0., 0.]), size=array([30., 30.]), units='pix', vertices=ndarray(...), win=Window(...))
+98.2203 	EXP 	Created unnamed Rect = Rect(__class__=<class 'psychopy.visual.rect.Rect'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=0, fillColor=array([ 1,  1, -1]), fillColorSpace='rgb', fillRGB=array([ 1,  1, -1]), interpolate=True, lineColor=array([0., 0., 0.]), lineColorSpace='rgb', lineRGB=array([0, 0, 0]), lineWidth=1.5, name='unnamed Rect', opacity=0.5, ori=0.0, pos=array([0., 0.]), size=array([30., 30.]), units='pix', vertices=ndarray(...), win=Window(...))
+98.2216 	EXP 	Created unnamed Rect = Rect(__class__=<class 'psychopy.visual.rect.Rect'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=0, fillColor=array([ 1,  1, -1]), fillColorSpace='rgb', fillRGB=array([ 1,  1, -1]), interpolate=True, lineColor=array([0., 0., 0.]), lineColorSpace='rgb', lineRGB=array([0, 0, 0]), lineWidth=1.5, name='unnamed Rect', opacity=0.5, ori=0.0, pos=array([0., 0.]), size=array([30., 30.]), units='pix', vertices=ndarray(...), win=Window(...))
+98.2229 	EXP 	Created unnamed Rect = Rect(__class__=<class 'psychopy.visual.rect.Rect'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=0, fillColor=array([ 1,  1, -1]), fillColorSpace='rgb', fillRGB=array([ 1,  1, -1]), interpolate=True, lineColor=array([0., 0., 0.]), lineColorSpace='rgb', lineRGB=array([0, 0, 0]), lineWidth=1.5, name='unnamed Rect', opacity=0.5, ori=0.0, pos=array([0., 0.]), size=array([30., 30.]), units='pix', vertices=ndarray(...), win=Window(...))
+98.2506 	EXP 	Created unnamed ImageStim = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, flipHoriz=False, flipVert=False, image='tree.png', interpolate=False, mask=None, maskParams=None, name='unnamed ImageStim', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([512., 512.]), texRes=128, units='pix', win=Window(...))
+98.2786 	EXP 	Created unnamed ImageStim = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, flipHoriz=False, flipVert=False, image='tree.png', interpolate=False, mask=None, maskParams=None, name='unnamed ImageStim', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([512., 512.]), texRes=128, units='pix', win=Window(...))
+98.3044 	EXP 	Created unnamed ImageStim = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, flipHoriz=False, flipVert=False, image='tree.png', interpolate=False, mask=None, maskParams=None, name='unnamed ImageStim', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([512., 512.]), texRes=128, units='pix', win=Window(...))
+98.3089 	DATA 	Keypress: space
+98.3154 	EXP 	Welcometext: autoDraw = False
+100.0812 	DATA 	Keypress: right
+100.5643 	DATA 	Keypress: right
+101.0478 	DATA 	Keypress: right
+101.3312 	DATA 	Keypress: right
+101.5477 	DATA 	Keypress: right
+101.7810 	DATA 	Keypress: right
+102.0146 	DATA 	Keypress: right
+102.2142 	DATA 	Keypress: right
+102.4147 	DATA 	Keypress: right
+102.6313 	DATA 	Keypress: right
+102.8311 	DATA 	Keypress: right
+103.0476 	DATA 	Keypress: right
+103.2477 	DATA 	Keypress: right
+103.4617 	EXP 	Created unnamed Rect = Rect(__class__=<class 'psychopy.visual.rect.Rect'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=0, fillColor=array([-1, -1, -1]), fillColorSpace='rgb', fillRGB=array([-1, -1, -1]), interpolate=True, lineColor=array([-1., -1.,  1.]), lineColorSpace='rgb', lineRGB=array([-1, -1,  1]), lineWidth=1.5, name='unnamed Rect', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([400., 600.]), units='pix', vertices=ndarray(...), win=Window(...))
+103.6223 	EXP 	Created unnamed ImageStim = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, flipHoriz=False, flipVert=False, image='attacked.png', interpolate=False, mask=None, maskParams=None, name='unnamed ImageStim', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([1920., 1080.]), texRes=128, units='pix', win=Window(...))
+103.6800 	EXP 	Created unnamed Rect = Rect(__class__=<class 'psychopy.visual.rect.Rect'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=0, fillColor=array([-1, -1, -1]), fillColorSpace='rgb', fillRGB=array([-1, -1, -1]), interpolate=True, lineColor=array([-1.        ,  0.00392157, -1.        ]), lineColorSpace='rgb', lineRGB=array([-1.        ,  0.00392157, -1.        ]), lineWidth=1.5, name='unnamed Rect', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([240., 160.]), units='pix', vertices=ndarray(...), win=Window(...))
+103.6833 	EXP 	Created unnamed Rect = Rect(__class__=<class 'psychopy.visual.rect.Rect'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=0, fillColor=array([-1, -1, -1]), fillColorSpace='rgb', fillRGB=array([-1, -1, -1]), interpolate=True, lineColor=array([-1., -1.,  1.]), lineColorSpace='rgb', lineRGB=array([-1, -1,  1]), lineWidth=1.5, name='unnamed Rect', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([400., 600.]), units='pix', vertices=ndarray(...), win=Window(...))
+103.6835 	DATA 	Keypress: right
+103.6838 	DATA 	Keypress: right
+103.8498 	DATA 	Keypress: right
+104.0606 	DATA 	Keypress: right
+104.3232 	DATA 	Keypress: right
+104.5267 	DATA 	Keypress: right
+104.7501 	DATA 	Keypress: down
+104.9110 	DATA 	Keypress: right
+105.1387 	DATA 	Keypress: right
+105.1510 	DATA 	Keypress: down
+105.3497 	DATA 	Keypress: right
+105.4166 	DATA 	Keypress: down
+105.5935 	DATA 	Keypress: down
+105.7664 	DATA 	Keypress: right
+105.9933 	DATA 	Keypress: right
+106.2275 	DATA 	Keypress: right
+106.4267 	DATA 	Keypress: right
+106.5767 	DATA 	Keypress: right
+106.7606 	DATA 	Keypress: right
+106.9607 	DATA 	Keypress: right
+107.1166 	DATA 	Keypress: right
+107.3271 	DATA 	Keypress: right
+107.5106 	DATA 	Keypress: right
+107.7105 	DATA 	Keypress: right
+107.9100 	DATA 	Keypress: right
+108.1105 	DATA 	Keypress: right
+108.2999 	DATA 	Keypress: right
+108.4935 	DATA 	Keypress: right
+108.7107 	DATA 	Keypress: right
+108.9001 	DATA 	Keypress: right
+109.0934 	DATA 	Keypress: right
+109.2829 	DATA 	Keypress: right
+109.4770 	DATA 	Keypress: right
+109.6600 	DATA 	Keypress: right
+109.8433 	DATA 	Keypress: right
+110.0269 	DATA 	Keypress: right
+113.7094 	EXP 	text: autoDraw = True
+116.6936 	EXP 	New trial (rep=5, index=0): None
+116.7094 	EXP 	text: autoDraw = False
+116.7094 	EXP 	text: autoDraw = False
+116.7094 	EXP 	Welcometext: autoDraw = True
+120.4955 	EXP 	Created unnamed Rect = Rect(__class__=<class 'psychopy.visual.rect.Rect'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=0, fillColor=array([ 1, -1, -1]), fillColorSpace='rgb', fillRGB=array([ 1, -1, -1]), interpolate=True, lineColor=array([-1., -1.,  1.]), lineColorSpace='rgb', lineRGB=array([-1, -1,  1]), lineWidth=1.5, name='unnamed Rect', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([1000.,  700.]), units='pix', vertices=ndarray(...), win=Window(...))
+120.4968 	EXP 	Created unnamed Rect = Rect(__class__=<class 'psychopy.visual.rect.Rect'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=0, fillColor=array([-1, -1, -1]), fillColorSpace='rgb', fillRGB=array([-1, -1, -1]), interpolate=True, lineColor=array([-1., -1.,  1.]), lineColorSpace='rgb', lineRGB=array([-1, -1,  1]), lineWidth=1.5, name='unnamed Rect', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([400., 600.]), units='pix', vertices=ndarray(...), win=Window(...))
+120.4982 	EXP 	Created unnamed Rect = Rect(__class__=<class 'psychopy.visual.rect.Rect'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=0, fillColor=array([-1, -1, -1]), fillColorSpace='rgb', fillRGB=array([-1, -1, -1]), interpolate=True, lineColor=array([-1., -1.,  1.]), lineColorSpace='rgb', lineRGB=array([-1, -1,  1]), lineWidth=1.5, name='unnamed Rect', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([400., 600.]), units='pix', vertices=ndarray(...), win=Window(...))
+120.4998 	EXP 	Created unnamed Rect = Rect(__class__=<class 'psychopy.visual.rect.Rect'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=0, fillColor=array([ 1,  1, -1]), fillColorSpace='rgb', fillRGB=array([ 1,  1, -1]), interpolate=True, lineColor=array([0., 0., 0.]), lineColorSpace='rgb', lineRGB=array([0, 0, 0]), lineWidth=1.5, name='unnamed Rect', opacity=0.5, ori=0.0, pos=array([0., 0.]), size=array([30., 30.]), units='pix', vertices=ndarray(...), win=Window(...))
+120.5011 	EXP 	Created unnamed Rect = Rect(__class__=<class 'psychopy.visual.rect.Rect'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=0, fillColor=array([ 1,  1, -1]), fillColorSpace='rgb', fillRGB=array([ 1,  1, -1]), interpolate=True, lineColor=array([0., 0., 0.]), lineColorSpace='rgb', lineRGB=array([0, 0, 0]), lineWidth=1.5, name='unnamed Rect', opacity=0.5, ori=0.0, pos=array([0., 0.]), size=array([30., 30.]), units='pix', vertices=ndarray(...), win=Window(...))
+120.5024 	EXP 	Created unnamed Rect = Rect(__class__=<class 'psychopy.visual.rect.Rect'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=0, fillColor=array([ 1,  1, -1]), fillColorSpace='rgb', fillRGB=array([ 1,  1, -1]), interpolate=True, lineColor=array([0., 0., 0.]), lineColorSpace='rgb', lineRGB=array([0, 0, 0]), lineWidth=1.5, name='unnamed Rect', opacity=0.5, ori=0.0, pos=array([0., 0.]), size=array([30., 30.]), units='pix', vertices=ndarray(...), win=Window(...))
+120.5037 	EXP 	Created unnamed Rect = Rect(__class__=<class 'psychopy.visual.rect.Rect'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=0, fillColor=array([ 1,  1, -1]), fillColorSpace='rgb', fillRGB=array([ 1,  1, -1]), interpolate=True, lineColor=array([0., 0., 0.]), lineColorSpace='rgb', lineRGB=array([0, 0, 0]), lineWidth=1.5, name='unnamed Rect', opacity=0.5, ori=0.0, pos=array([0., 0.]), size=array([30., 30.]), units='pix', vertices=ndarray(...), win=Window(...))
+120.5051 	EXP 	Created unnamed Rect = Rect(__class__=<class 'psychopy.visual.rect.Rect'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=0, fillColor=array([ 1,  1, -1]), fillColorSpace='rgb', fillRGB=array([ 1,  1, -1]), interpolate=True, lineColor=array([0., 0., 0.]), lineColorSpace='rgb', lineRGB=array([0, 0, 0]), lineWidth=1.5, name='unnamed Rect', opacity=0.5, ori=0.0, pos=array([0., 0.]), size=array([30., 30.]), units='pix', vertices=ndarray(...), win=Window(...))
+120.5064 	EXP 	Created unnamed Rect = Rect(__class__=<class 'psychopy.visual.rect.Rect'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=0, fillColor=array([ 1,  1, -1]), fillColorSpace='rgb', fillRGB=array([ 1,  1, -1]), interpolate=True, lineColor=array([0., 0., 0.]), lineColorSpace='rgb', lineRGB=array([0, 0, 0]), lineWidth=1.5, name='unnamed Rect', opacity=0.5, ori=0.0, pos=array([0., 0.]), size=array([30., 30.]), units='pix', vertices=ndarray(...), win=Window(...))
+120.5078 	EXP 	Created unnamed Rect = Rect(__class__=<class 'psychopy.visual.rect.Rect'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=0, fillColor=array([ 1,  1, -1]), fillColorSpace='rgb', fillRGB=array([ 1,  1, -1]), interpolate=True, lineColor=array([0., 0., 0.]), lineColorSpace='rgb', lineRGB=array([0, 0, 0]), lineWidth=1.5, name='unnamed Rect', opacity=0.5, ori=0.0, pos=array([0., 0.]), size=array([30., 30.]), units='pix', vertices=ndarray(...), win=Window(...))
+120.5349 	EXP 	Created unnamed ImageStim = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, flipHoriz=False, flipVert=False, image='tree.png', interpolate=False, mask=None, maskParams=None, name='unnamed ImageStim', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([512., 512.]), texRes=128, units='pix', win=Window(...))
+120.5621 	EXP 	Created unnamed ImageStim = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, flipHoriz=False, flipVert=False, image='tree.png', interpolate=False, mask=None, maskParams=None, name='unnamed ImageStim', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([512., 512.]), texRes=128, units='pix', win=Window(...))
+120.5902 	EXP 	Created unnamed ImageStim = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, flipHoriz=False, flipVert=False, image='tree.png', interpolate=False, mask=None, maskParams=None, name='unnamed ImageStim', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([512., 512.]), texRes=128, units='pix', win=Window(...))
+120.6163 	EXP 	Created unnamed ImageStim = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, flipHoriz=False, flipVert=False, image='tree.png', interpolate=False, mask=None, maskParams=None, name='unnamed ImageStim', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([512., 512.]), texRes=128, units='pix', win=Window(...))
+120.6412 	EXP 	Created unnamed ImageStim = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, flipHoriz=False, flipVert=False, image='tree.png', interpolate=False, mask=None, maskParams=None, name='unnamed ImageStim', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([512., 512.]), texRes=128, units='pix', win=Window(...))
+120.6676 	EXP 	Created unnamed ImageStim = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, flipHoriz=False, flipVert=False, image='tree.png', interpolate=False, mask=None, maskParams=None, name='unnamed ImageStim', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([512., 512.]), texRes=128, units='pix', win=Window(...))
+120.6725 	DATA 	Keypress: space
+120.6817 	EXP 	Welcometext: autoDraw = False
+122.5314 	DATA 	Keypress: right
+122.9318 	DATA 	Keypress: right
+124.1645 	DATA 	Keypress: right
+124.7315 	DATA 	Keypress: right
+125.2983 	DATA 	Keypress: right
+125.9121 	EXP 	Created unnamed Rect = Rect(__class__=<class 'psychopy.visual.rect.Rect'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=0, fillColor=array([-1, -1, -1]), fillColorSpace='rgb', fillRGB=array([-1, -1, -1]), interpolate=True, lineColor=array([-1., -1.,  1.]), lineColorSpace='rgb', lineRGB=array([-1, -1,  1]), lineWidth=1.5, name='unnamed Rect', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([400., 600.]), units='pix', vertices=ndarray(...), win=Window(...))
+126.0589 	EXP 	Created unnamed ImageStim = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, flipHoriz=False, flipVert=False, image='attacked.png', interpolate=False, mask=None, maskParams=None, name='unnamed ImageStim', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([1920., 1080.]), texRes=128, units='pix', win=Window(...))
+126.1079 	EXP 	Created unnamed Rect = Rect(__class__=<class 'psychopy.visual.rect.Rect'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=0, fillColor=array([-1, -1, -1]), fillColorSpace='rgb', fillRGB=array([-1, -1, -1]), interpolate=True, lineColor=array([-1.        ,  0.00392157, -1.        ]), lineColorSpace='rgb', lineRGB=array([-1.        ,  0.00392157, -1.        ]), lineWidth=1.5, name='unnamed Rect', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([240., 160.]), units='pix', vertices=ndarray(...), win=Window(...))
+126.1110 	EXP 	Created unnamed Rect = Rect(__class__=<class 'psychopy.visual.rect.Rect'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=0, fillColor=array([-1, -1, -1]), fillColorSpace='rgb', fillRGB=array([-1, -1, -1]), interpolate=True, lineColor=array([-1., -1.,  1.]), lineColorSpace='rgb', lineRGB=array([-1, -1,  1]), lineWidth=1.5, name='unnamed Rect', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([400., 600.]), units='pix', vertices=ndarray(...), win=Window(...))
+126.1112 	DATA 	Keypress: right
+126.2779 	DATA 	Keypress: right
+126.4835 	DATA 	Keypress: right
+126.6770 	DATA 	Keypress: right
+126.9943 	DATA 	Keypress: right
+127.1768 	DATA 	Keypress: right
+127.3609 	DATA 	Keypress: right
+127.5276 	DATA 	Keypress: right
+127.7003 	DATA 	Keypress: right
+127.8768 	DATA 	Keypress: right
+128.0335 	DATA 	Keypress: right
+128.2101 	DATA 	Keypress: right
+128.3936 	DATA 	Keypress: right
+128.5767 	DATA 	Keypress: right
+128.7502 	DATA 	Keypress: right
+128.9268 	DATA 	Keypress: right
+129.1002 	DATA 	Keypress: right
+129.2797 	DATA 	Keypress: right
+129.4632 	DATA 	Keypress: right
+136.1263 	EXP 	text: autoDraw = True
+136.8113 	DATA 	Keypress: space
+137.1778 	DATA 	Keypress: space
+137.5450 	DATA 	Keypress: space
+137.9276 	DATA 	Keypress: space
+138.7278 	DATA 	Keypress: space
+139.1103 	EXP 	New trial (rep=6, index=0): None
+139.1263 	EXP 	text: autoDraw = False
+139.1263 	EXP 	text: autoDraw = False
+139.1263 	EXP 	Welcometext: autoDraw = True
+139.2454 	EXP 	Created unnamed Rect = Rect(__class__=<class 'psychopy.visual.rect.Rect'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=0, fillColor=array([ 1, -1, -1]), fillColorSpace='rgb', fillRGB=array([ 1, -1, -1]), interpolate=True, lineColor=array([-1., -1.,  1.]), lineColorSpace='rgb', lineRGB=array([-1, -1,  1]), lineWidth=1.5, name='unnamed Rect', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([1000.,  700.]), units='pix', vertices=ndarray(...), win=Window(...))
+139.2466 	EXP 	Created unnamed Rect = Rect(__class__=<class 'psychopy.visual.rect.Rect'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=0, fillColor=array([-1, -1, -1]), fillColorSpace='rgb', fillRGB=array([-1, -1, -1]), interpolate=True, lineColor=array([-1., -1.,  1.]), lineColorSpace='rgb', lineRGB=array([-1, -1,  1]), lineWidth=1.5, name='unnamed Rect', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([400., 600.]), units='pix', vertices=ndarray(...), win=Window(...))
+139.2477 	EXP 	Created unnamed Rect = Rect(__class__=<class 'psychopy.visual.rect.Rect'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=0, fillColor=array([-1, -1, -1]), fillColorSpace='rgb', fillRGB=array([-1, -1, -1]), interpolate=True, lineColor=array([-1., -1.,  1.]), lineColorSpace='rgb', lineRGB=array([-1, -1,  1]), lineWidth=1.5, name='unnamed Rect', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([400., 600.]), units='pix', vertices=ndarray(...), win=Window(...))
+139.2491 	EXP 	Created unnamed Rect = Rect(__class__=<class 'psychopy.visual.rect.Rect'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=0, fillColor=array([ 1,  1, -1]), fillColorSpace='rgb', fillRGB=array([ 1,  1, -1]), interpolate=True, lineColor=array([0., 0., 0.]), lineColorSpace='rgb', lineRGB=array([0, 0, 0]), lineWidth=1.5, name='unnamed Rect', opacity=0.5, ori=0.0, pos=array([0., 0.]), size=array([30., 30.]), units='pix', vertices=ndarray(...), win=Window(...))
+139.2506 	EXP 	Created unnamed Rect = Rect(__class__=<class 'psychopy.visual.rect.Rect'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=0, fillColor=array([ 1,  1, -1]), fillColorSpace='rgb', fillRGB=array([ 1,  1, -1]), interpolate=True, lineColor=array([0., 0., 0.]), lineColorSpace='rgb', lineRGB=array([0, 0, 0]), lineWidth=1.5, name='unnamed Rect', opacity=0.5, ori=0.0, pos=array([0., 0.]), size=array([30., 30.]), units='pix', vertices=ndarray(...), win=Window(...))
+139.2522 	EXP 	Created unnamed Rect = Rect(__class__=<class 'psychopy.visual.rect.Rect'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=0, fillColor=array([ 1,  1, -1]), fillColorSpace='rgb', fillRGB=array([ 1,  1, -1]), interpolate=True, lineColor=array([0., 0., 0.]), lineColorSpace='rgb', lineRGB=array([0, 0, 0]), lineWidth=1.5, name='unnamed Rect', opacity=0.5, ori=0.0, pos=array([0., 0.]), size=array([30., 30.]), units='pix', vertices=ndarray(...), win=Window(...))
+139.2536 	EXP 	Created unnamed Rect = Rect(__class__=<class 'psychopy.visual.rect.Rect'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=0, fillColor=array([ 1,  1, -1]), fillColorSpace='rgb', fillRGB=array([ 1,  1, -1]), interpolate=True, lineColor=array([0., 0., 0.]), lineColorSpace='rgb', lineRGB=array([0, 0, 0]), lineWidth=1.5, name='unnamed Rect', opacity=0.5, ori=0.0, pos=array([0., 0.]), size=array([30., 30.]), units='pix', vertices=ndarray(...), win=Window(...))
+139.2550 	EXP 	Created unnamed Rect = Rect(__class__=<class 'psychopy.visual.rect.Rect'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=0, fillColor=array([ 1,  1, -1]), fillColorSpace='rgb', fillRGB=array([ 1,  1, -1]), interpolate=True, lineColor=array([0., 0., 0.]), lineColorSpace='rgb', lineRGB=array([0, 0, 0]), lineWidth=1.5, name='unnamed Rect', opacity=0.5, ori=0.0, pos=array([0., 0.]), size=array([30., 30.]), units='pix', vertices=ndarray(...), win=Window(...))
+139.2564 	EXP 	Created unnamed Rect = Rect(__class__=<class 'psychopy.visual.rect.Rect'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=0, fillColor=array([ 1,  1, -1]), fillColorSpace='rgb', fillRGB=array([ 1,  1, -1]), interpolate=True, lineColor=array([0., 0., 0.]), lineColorSpace='rgb', lineRGB=array([0, 0, 0]), lineWidth=1.5, name='unnamed Rect', opacity=0.5, ori=0.0, pos=array([0., 0.]), size=array([30., 30.]), units='pix', vertices=ndarray(...), win=Window(...))
+139.2580 	EXP 	Created unnamed Rect = Rect(__class__=<class 'psychopy.visual.rect.Rect'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=0, fillColor=array([ 1,  1, -1]), fillColorSpace='rgb', fillRGB=array([ 1,  1, -1]), interpolate=True, lineColor=array([0., 0., 0.]), lineColorSpace='rgb', lineRGB=array([0, 0, 0]), lineWidth=1.5, name='unnamed Rect', opacity=0.5, ori=0.0, pos=array([0., 0.]), size=array([30., 30.]), units='pix', vertices=ndarray(...), win=Window(...))
+139.2859 	EXP 	Created unnamed ImageStim = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, flipHoriz=False, flipVert=False, image='tree.png', interpolate=False, mask=None, maskParams=None, name='unnamed ImageStim', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([512., 512.]), texRes=128, units='pix', win=Window(...))
+139.3142 	EXP 	Created unnamed ImageStim = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, flipHoriz=False, flipVert=False, image='tree.png', interpolate=False, mask=None, maskParams=None, name='unnamed ImageStim', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([512., 512.]), texRes=128, units='pix', win=Window(...))
+139.3426 	EXP 	Created unnamed ImageStim = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, flipHoriz=False, flipVert=False, image='tree.png', interpolate=False, mask=None, maskParams=None, name='unnamed ImageStim', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([512., 512.]), texRes=128, units='pix', win=Window(...))
+139.3696 	EXP 	Created unnamed ImageStim = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, flipHoriz=False, flipVert=False, image='tree.png', interpolate=False, mask=None, maskParams=None, name='unnamed ImageStim', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([512., 512.]), texRes=128, units='pix', win=Window(...))
+139.3968 	EXP 	Created unnamed ImageStim = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, flipHoriz=False, flipVert=False, image='tree.png', interpolate=False, mask=None, maskParams=None, name='unnamed ImageStim', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([512., 512.]), texRes=128, units='pix', win=Window(...))
+139.4256 	EXP 	Created unnamed ImageStim = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, flipHoriz=False, flipVert=False, image='tree.png', interpolate=False, mask=None, maskParams=None, name='unnamed ImageStim', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([512., 512.]), texRes=128, units='pix', win=Window(...))
+139.4518 	EXP 	Created unnamed ImageStim = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, flipHoriz=False, flipVert=False, image='tree.png', interpolate=False, mask=None, maskParams=None, name='unnamed ImageStim', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([512., 512.]), texRes=128, units='pix', win=Window(...))
+139.4780 	EXP 	Created unnamed ImageStim = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, flipHoriz=False, flipVert=False, image='tree.png', interpolate=False, mask=None, maskParams=None, name='unnamed ImageStim', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([512., 512.]), texRes=128, units='pix', win=Window(...))
+139.5046 	EXP 	Created unnamed ImageStim = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, flipHoriz=False, flipVert=False, image='tree.png', interpolate=False, mask=None, maskParams=None, name='unnamed ImageStim', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([512., 512.]), texRes=128, units='pix', win=Window(...))
+139.5324 	EXP 	Created unnamed ImageStim = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, flipHoriz=False, flipVert=False, image='tree.png', interpolate=False, mask=None, maskParams=None, name='unnamed ImageStim', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([512., 512.]), texRes=128, units='pix', win=Window(...))
+139.5581 	EXP 	Created unnamed ImageStim = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, flipHoriz=False, flipVert=False, image='tree.png', interpolate=False, mask=None, maskParams=None, name='unnamed ImageStim', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([512., 512.]), texRes=128, units='pix', win=Window(...))
+139.5863 	EXP 	Created unnamed ImageStim = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, flipHoriz=False, flipVert=False, image='tree.png', interpolate=False, mask=None, maskParams=None, name='unnamed ImageStim', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([512., 512.]), texRes=128, units='pix', win=Window(...))
+139.5956 	DATA 	Keypress: space
+139.6100 	EXP 	Welcometext: autoDraw = False
+139.6991 	DATA 	Keypress: space
+142.4512 	DATA 	Keypress: right
+142.8321 	DATA 	Keypress: right
+143.0988 	DATA 	Keypress: right
+143.3487 	DATA 	Keypress: right
+143.5988 	DATA 	Keypress: right
+143.8669 	DATA 	Keypress: right
+144.1323 	DATA 	Keypress: right
+144.3820 	DATA 	Keypress: right
+144.6283 	EXP 	Created unnamed Rect = Rect(__class__=<class 'psychopy.visual.rect.Rect'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=0, fillColor=array([-1, -1, -1]), fillColorSpace='rgb', fillRGB=array([-1, -1, -1]), interpolate=True, lineColor=array([-1., -1.,  1.]), lineColorSpace='rgb', lineRGB=array([-1, -1,  1]), lineWidth=1.5, name='unnamed Rect', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([400., 600.]), units='pix', vertices=ndarray(...), win=Window(...))
+144.7779 	EXP 	Created unnamed ImageStim = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, flipHoriz=False, flipVert=False, image='attacked.png', interpolate=False, mask=None, maskParams=None, name='unnamed ImageStim', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([1920., 1080.]), texRes=128, units='pix', win=Window(...))
+144.8247 	EXP 	Created unnamed Rect = Rect(__class__=<class 'psychopy.visual.rect.Rect'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=0, fillColor=array([-1, -1, -1]), fillColorSpace='rgb', fillRGB=array([-1, -1, -1]), interpolate=True, lineColor=array([-1.        ,  0.00392157, -1.        ]), lineColorSpace='rgb', lineRGB=array([-1.        ,  0.00392157, -1.        ]), lineWidth=1.5, name='unnamed Rect', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([240., 160.]), units='pix', vertices=ndarray(...), win=Window(...))
+144.8279 	EXP 	Created unnamed Rect = Rect(__class__=<class 'psychopy.visual.rect.Rect'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=0, fillColor=array([-1, -1, -1]), fillColorSpace='rgb', fillRGB=array([-1, -1, -1]), interpolate=True, lineColor=array([-1., -1.,  1.]), lineColorSpace='rgb', lineRGB=array([-1, -1,  1]), lineWidth=1.5, name='unnamed Rect', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([400., 600.]), units='pix', vertices=ndarray(...), win=Window(...))
+144.8281 	DATA 	Keypress: right
+144.8464 	DATA 	Keypress: right
+145.0673 	DATA 	Keypress: right
+145.2673 	DATA 	Keypress: down
+145.4773 	DATA 	Keypress: right
+145.4954 	DATA 	Keypress: down
+145.7104 	DATA 	Keypress: down
+145.8612 	DATA 	Keypress: right
+145.8938 	DATA 	Keypress: down
+146.0606 	DATA 	Keypress: right
+146.2440 	DATA 	Keypress: right
+146.4193 	DATA 	Keypress: right
+146.5939 	DATA 	Keypress: right
+146.7604 	DATA 	Keypress: down
+146.9608 	DATA 	Keypress: right
+146.9780 	DATA 	Keypress: down
+147.1771 	DATA 	Keypress: right
+147.3603 	DATA 	Keypress: right
+147.5506 	DATA 	Keypress: up
+147.7108 	DATA 	Keypress: right
+147.7439 	DATA 	Keypress: up
+147.9111 	DATA 	Keypress: right
+147.9178 	DATA 	Keypress: up
+148.0839 	DATA 	Keypress: right
+148.1339 	DATA 	Keypress: up
+148.2774 	DATA 	Keypress: right
+148.2939 	DATA 	Keypress: up
+148.4604 	DATA 	Keypress: right
+148.4941 	DATA 	Keypress: up
+148.6675 	DATA 	Keypress: right
+148.8605 	DATA 	Keypress: right
+149.0443 	DATA 	Keypress: right
+149.2278 	DATA 	Keypress: right
+149.4269 	DATA 	Keypress: right
+149.6169 	DATA 	Keypress: down
+149.8283 	DATA 	Keypress: right
+150.0167 	DATA 	Keypress: down
+150.1939 	DATA 	Keypress: right
+150.3936 	DATA 	Keypress: right
+150.5835 	DATA 	Keypress: right
+150.7504 	DATA 	Keypress: right
+150.9443 	DATA 	Keypress: right
+151.1436 	DATA 	Keypress: right
+151.1503 	DATA 	Keypress: up
+151.3273 	DATA 	Keypress: right
+151.5169 	DATA 	Keypress: right
+151.7107 	DATA 	Keypress: up
+151.9103 	DATA 	Keypress: up
+152.1435 	DATA 	Keypress: up
+152.1841 	DATA 	Keypress: left
+152.4668 	DATA 	Keypress: left
+152.5682 	DATA 	Keypress: up
+152.6943 	DATA 	Keypress: left
+152.8437 	DATA 	Keypress: up
+152.9444 	DATA 	Keypress: left
+153.0791 	DATA 	Keypress: up
+153.1769 	DATA 	Keypress: left
+153.3169 	DATA 	Keypress: up
+153.4103 	DATA 	Keypress: left
+153.5514 	DATA 	Keypress: up
+153.6502 	DATA 	Keypress: left
+153.7938 	DATA 	Keypress: up
+153.9002 	DATA 	Keypress: left
+154.0438 	DATA 	Keypress: up
+154.1777 	DATA 	Keypress: left
+154.2937 	DATA 	Keypress: up
+154.3938 	DATA 	Keypress: left
+154.5603 	DATA 	Keypress: up
+154.6502 	DATA 	Keypress: left
+154.7935 	DATA 	Keypress: up
+154.8597 	EXP 	text: autoDraw = True
+154.8945 	DATA 	Keypress: left
+155.1446 	DATA 	Keypress: left
+155.2779 	DATA 	Keypress: up
+157.8439 	EXP 	New trial (rep=7, index=0): None
+157.8595 	EXP 	text: autoDraw = False
+157.8595 	EXP 	text: autoDraw = False
+157.8595 	EXP 	Welcometext: autoDraw = True
+158.9120 	EXP 	Created unnamed Rect = Rect(__class__=<class 'psychopy.visual.rect.Rect'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=0, fillColor=array([ 1, -1, -1]), fillColorSpace='rgb', fillRGB=array([ 1, -1, -1]), interpolate=True, lineColor=array([-1., -1.,  1.]), lineColorSpace='rgb', lineRGB=array([-1, -1,  1]), lineWidth=1.5, name='unnamed Rect', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([1000.,  700.]), units='pix', vertices=ndarray(...), win=Window(...))
+158.9131 	EXP 	Created unnamed Rect = Rect(__class__=<class 'psychopy.visual.rect.Rect'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=0, fillColor=array([-1, -1, -1]), fillColorSpace='rgb', fillRGB=array([-1, -1, -1]), interpolate=True, lineColor=array([-1., -1.,  1.]), lineColorSpace='rgb', lineRGB=array([-1, -1,  1]), lineWidth=1.5, name='unnamed Rect', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([400., 600.]), units='pix', vertices=ndarray(...), win=Window(...))
+158.9141 	EXP 	Created unnamed Rect = Rect(__class__=<class 'psychopy.visual.rect.Rect'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=0, fillColor=array([-1, -1, -1]), fillColorSpace='rgb', fillRGB=array([-1, -1, -1]), interpolate=True, lineColor=array([-1., -1.,  1.]), lineColorSpace='rgb', lineRGB=array([-1, -1,  1]), lineWidth=1.5, name='unnamed Rect', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([400., 600.]), units='pix', vertices=ndarray(...), win=Window(...))
+158.9155 	EXP 	Created unnamed Rect = Rect(__class__=<class 'psychopy.visual.rect.Rect'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=0, fillColor=array([ 1,  1, -1]), fillColorSpace='rgb', fillRGB=array([ 1,  1, -1]), interpolate=True, lineColor=array([0., 0., 0.]), lineColorSpace='rgb', lineRGB=array([0, 0, 0]), lineWidth=1.5, name='unnamed Rect', opacity=0.5, ori=0.0, pos=array([0., 0.]), size=array([30., 30.]), units='pix', vertices=ndarray(...), win=Window(...))
+158.9168 	EXP 	Created unnamed Rect = Rect(__class__=<class 'psychopy.visual.rect.Rect'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=0, fillColor=array([ 1,  1, -1]), fillColorSpace='rgb', fillRGB=array([ 1,  1, -1]), interpolate=True, lineColor=array([0., 0., 0.]), lineColorSpace='rgb', lineRGB=array([0, 0, 0]), lineWidth=1.5, name='unnamed Rect', opacity=0.5, ori=0.0, pos=array([0., 0.]), size=array([30., 30.]), units='pix', vertices=ndarray(...), win=Window(...))
+158.9182 	EXP 	Created unnamed Rect = Rect(__class__=<class 'psychopy.visual.rect.Rect'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=0, fillColor=array([ 1,  1, -1]), fillColorSpace='rgb', fillRGB=array([ 1,  1, -1]), interpolate=True, lineColor=array([0., 0., 0.]), lineColorSpace='rgb', lineRGB=array([0, 0, 0]), lineWidth=1.5, name='unnamed Rect', opacity=0.5, ori=0.0, pos=array([0., 0.]), size=array([30., 30.]), units='pix', vertices=ndarray(...), win=Window(...))
+158.9195 	EXP 	Created unnamed Rect = Rect(__class__=<class 'psychopy.visual.rect.Rect'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=0, fillColor=array([ 1,  1, -1]), fillColorSpace='rgb', fillRGB=array([ 1,  1, -1]), interpolate=True, lineColor=array([0., 0., 0.]), lineColorSpace='rgb', lineRGB=array([0, 0, 0]), lineWidth=1.5, name='unnamed Rect', opacity=0.5, ori=0.0, pos=array([0., 0.]), size=array([30., 30.]), units='pix', vertices=ndarray(...), win=Window(...))
+158.9208 	EXP 	Created unnamed Rect = Rect(__class__=<class 'psychopy.visual.rect.Rect'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=0, fillColor=array([ 1,  1, -1]), fillColorSpace='rgb', fillRGB=array([ 1,  1, -1]), interpolate=True, lineColor=array([0., 0., 0.]), lineColorSpace='rgb', lineRGB=array([0, 0, 0]), lineWidth=1.5, name='unnamed Rect', opacity=0.5, ori=0.0, pos=array([0., 0.]), size=array([30., 30.]), units='pix', vertices=ndarray(...), win=Window(...))
+158.9221 	EXP 	Created unnamed Rect = Rect(__class__=<class 'psychopy.visual.rect.Rect'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=0, fillColor=array([ 1,  1, -1]), fillColorSpace='rgb', fillRGB=array([ 1,  1, -1]), interpolate=True, lineColor=array([0., 0., 0.]), lineColorSpace='rgb', lineRGB=array([0, 0, 0]), lineWidth=1.5, name='unnamed Rect', opacity=0.5, ori=0.0, pos=array([0., 0.]), size=array([30., 30.]), units='pix', vertices=ndarray(...), win=Window(...))
+158.9234 	EXP 	Created unnamed Rect = Rect(__class__=<class 'psychopy.visual.rect.Rect'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=0, fillColor=array([ 1,  1, -1]), fillColorSpace='rgb', fillRGB=array([ 1,  1, -1]), interpolate=True, lineColor=array([0., 0., 0.]), lineColorSpace='rgb', lineRGB=array([0, 0, 0]), lineWidth=1.5, name='unnamed Rect', opacity=0.5, ori=0.0, pos=array([0., 0.]), size=array([30., 30.]), units='pix', vertices=ndarray(...), win=Window(...))
+158.9537 	EXP 	Created unnamed ImageStim = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, flipHoriz=False, flipVert=False, image='tree.png', interpolate=False, mask=None, maskParams=None, name='unnamed ImageStim', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([512., 512.]), texRes=128, units='pix', win=Window(...))
+158.9818 	EXP 	Created unnamed ImageStim = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, flipHoriz=False, flipVert=False, image='tree.png', interpolate=False, mask=None, maskParams=None, name='unnamed ImageStim', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([512., 512.]), texRes=128, units='pix', win=Window(...))
+159.0089 	EXP 	Created unnamed ImageStim = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, flipHoriz=False, flipVert=False, image='tree.png', interpolate=False, mask=None, maskParams=None, name='unnamed ImageStim', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([512., 512.]), texRes=128, units='pix', win=Window(...))
+159.0344 	EXP 	Created unnamed ImageStim = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, flipHoriz=False, flipVert=False, image='tree.png', interpolate=False, mask=None, maskParams=None, name='unnamed ImageStim', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([512., 512.]), texRes=128, units='pix', win=Window(...))
+159.0612 	EXP 	Created unnamed ImageStim = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, flipHoriz=False, flipVert=False, image='tree.png', interpolate=False, mask=None, maskParams=None, name='unnamed ImageStim', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([512., 512.]), texRes=128, units='pix', win=Window(...))
+159.0890 	EXP 	Created unnamed ImageStim = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, flipHoriz=False, flipVert=False, image='tree.png', interpolate=False, mask=None, maskParams=None, name='unnamed ImageStim', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([512., 512.]), texRes=128, units='pix', win=Window(...))
+159.1150 	EXP 	Created unnamed ImageStim = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, flipHoriz=False, flipVert=False, image='tree.png', interpolate=False, mask=None, maskParams=None, name='unnamed ImageStim', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([512., 512.]), texRes=128, units='pix', win=Window(...))
+159.1417 	EXP 	Created unnamed ImageStim = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, flipHoriz=False, flipVert=False, image='tree.png', interpolate=False, mask=None, maskParams=None, name='unnamed ImageStim', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([512., 512.]), texRes=128, units='pix', win=Window(...))
+159.1734 	EXP 	Created unnamed ImageStim = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, flipHoriz=False, flipVert=False, image='tree.png', interpolate=False, mask=None, maskParams=None, name='unnamed ImageStim', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([512., 512.]), texRes=128, units='pix', win=Window(...))
+159.2022 	EXP 	Created unnamed ImageStim = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, flipHoriz=False, flipVert=False, image='tree.png', interpolate=False, mask=None, maskParams=None, name='unnamed ImageStim', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([512., 512.]), texRes=128, units='pix', win=Window(...))
+159.2290 	EXP 	Created unnamed ImageStim = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, flipHoriz=False, flipVert=False, image='tree.png', interpolate=False, mask=None, maskParams=None, name='unnamed ImageStim', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([512., 512.]), texRes=128, units='pix', win=Window(...))
+159.2571 	EXP 	Created unnamed ImageStim = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, flipHoriz=False, flipVert=False, image='tree.png', interpolate=False, mask=None, maskParams=None, name='unnamed ImageStim', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([512., 512.]), texRes=128, units='pix', win=Window(...))
+159.2635 	DATA 	Keypress: space
+159.2779 	EXP 	Welcometext: autoDraw = False
+160.7674 	DATA 	Keypress: right
+161.1491 	DATA 	Keypress: right
+162.0492 	DATA 	Keypress: right
+163.6988 	DATA 	Keypress: right
+164.4788 	EXP 	Created unnamed Rect = Rect(__class__=<class 'psychopy.visual.rect.Rect'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=0, fillColor=array([-1, -1, -1]), fillColorSpace='rgb', fillRGB=array([-1, -1, -1]), interpolate=True, lineColor=array([-1., -1.,  1.]), lineColorSpace='rgb', lineRGB=array([-1, -1,  1]), lineWidth=1.5, name='unnamed Rect', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([400., 600.]), units='pix', vertices=ndarray(...), win=Window(...))
+164.6401 	EXP 	Created unnamed ImageStim = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, flipHoriz=False, flipVert=False, image='attacked.png', interpolate=False, mask=None, maskParams=None, name='unnamed ImageStim', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([1920., 1080.]), texRes=128, units='pix', win=Window(...))
+164.6868 	EXP 	Created unnamed Rect = Rect(__class__=<class 'psychopy.visual.rect.Rect'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=0, fillColor=array([-1, -1, -1]), fillColorSpace='rgb', fillRGB=array([-1, -1, -1]), interpolate=True, lineColor=array([-1.        ,  0.00392157, -1.        ]), lineColorSpace='rgb', lineRGB=array([-1.        ,  0.00392157, -1.        ]), lineWidth=1.5, name='unnamed Rect', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([240., 160.]), units='pix', vertices=ndarray(...), win=Window(...))
+164.6900 	EXP 	Created unnamed Rect = Rect(__class__=<class 'psychopy.visual.rect.Rect'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=0, fillColor=array([-1, -1, -1]), fillColorSpace='rgb', fillRGB=array([-1, -1, -1]), interpolate=True, lineColor=array([-1., -1.,  1.]), lineColorSpace='rgb', lineRGB=array([-1, -1,  1]), lineWidth=1.5, name='unnamed Rect', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([400., 600.]), units='pix', vertices=ndarray(...), win=Window(...))
+164.6902 	DATA 	Keypress: right
+165.1178 	DATA 	Keypress: down
+165.3511 	DATA 	Keypress: right
+165.5505 	DATA 	Keypress: down
+165.7005 	DATA 	Keypress: right
+165.9777 	DATA 	Keypress: down
+166.2170 	DATA 	Keypress: down
+166.3844 	DATA 	Keypress: down
+166.5611 	DATA 	Keypress: down
+166.6439 	DATA 	Keypress: left
+166.7841 	DATA 	Keypress: down
+166.8771 	DATA 	Keypress: left
+166.9790 	DATA 	Keypress: down
+167.1350 	DATA 	Keypress: left
+167.2009 	DATA 	Keypress: down
+167.4009 	DATA 	Keypress: left
+167.5511 	DATA 	Keypress: down
+167.6772 	DATA 	Keypress: left
+167.7632 	DATA 	Keypress: down
+167.8974 	DATA 	Keypress: left
+167.9972 	DATA 	Keypress: down
+174.7100 	EXP 	text: autoDraw = True
+177.6939 	EXP 	New trial (rep=8, index=0): None
+177.7098 	EXP 	text: autoDraw = False
+177.7098 	EXP 	text: autoDraw = False
+177.7098 	EXP 	Welcometext: autoDraw = True
+178.5620 	EXP 	Created unnamed Rect = Rect(__class__=<class 'psychopy.visual.rect.Rect'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=0, fillColor=array([ 1, -1, -1]), fillColorSpace='rgb', fillRGB=array([ 1, -1, -1]), interpolate=True, lineColor=array([-1., -1.,  1.]), lineColorSpace='rgb', lineRGB=array([-1, -1,  1]), lineWidth=1.5, name='unnamed Rect', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([1000.,  700.]), units='pix', vertices=ndarray(...), win=Window(...))
+178.5630 	EXP 	Created unnamed Rect = Rect(__class__=<class 'psychopy.visual.rect.Rect'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=0, fillColor=array([-1, -1, -1]), fillColorSpace='rgb', fillRGB=array([-1, -1, -1]), interpolate=True, lineColor=array([-1., -1.,  1.]), lineColorSpace='rgb', lineRGB=array([-1, -1,  1]), lineWidth=1.5, name='unnamed Rect', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([400., 600.]), units='pix', vertices=ndarray(...), win=Window(...))
+178.5640 	EXP 	Created unnamed Rect = Rect(__class__=<class 'psychopy.visual.rect.Rect'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=0, fillColor=array([-1, -1, -1]), fillColorSpace='rgb', fillRGB=array([-1, -1, -1]), interpolate=True, lineColor=array([-1., -1.,  1.]), lineColorSpace='rgb', lineRGB=array([-1, -1,  1]), lineWidth=1.5, name='unnamed Rect', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([400., 600.]), units='pix', vertices=ndarray(...), win=Window(...))
+178.5654 	EXP 	Created unnamed Rect = Rect(__class__=<class 'psychopy.visual.rect.Rect'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=0, fillColor=array([ 1,  1, -1]), fillColorSpace='rgb', fillRGB=array([ 1,  1, -1]), interpolate=True, lineColor=array([0., 0., 0.]), lineColorSpace='rgb', lineRGB=array([0, 0, 0]), lineWidth=1.5, name='unnamed Rect', opacity=0.5, ori=0.0, pos=array([0., 0.]), size=array([30., 30.]), units='pix', vertices=ndarray(...), win=Window(...))
+178.5667 	EXP 	Created unnamed Rect = Rect(__class__=<class 'psychopy.visual.rect.Rect'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=0, fillColor=array([ 1,  1, -1]), fillColorSpace='rgb', fillRGB=array([ 1,  1, -1]), interpolate=True, lineColor=array([0., 0., 0.]), lineColorSpace='rgb', lineRGB=array([0, 0, 0]), lineWidth=1.5, name='unnamed Rect', opacity=0.5, ori=0.0, pos=array([0., 0.]), size=array([30., 30.]), units='pix', vertices=ndarray(...), win=Window(...))
+178.5680 	EXP 	Created unnamed Rect = Rect(__class__=<class 'psychopy.visual.rect.Rect'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=0, fillColor=array([ 1,  1, -1]), fillColorSpace='rgb', fillRGB=array([ 1,  1, -1]), interpolate=True, lineColor=array([0., 0., 0.]), lineColorSpace='rgb', lineRGB=array([0, 0, 0]), lineWidth=1.5, name='unnamed Rect', opacity=0.5, ori=0.0, pos=array([0., 0.]), size=array([30., 30.]), units='pix', vertices=ndarray(...), win=Window(...))
+178.5693 	EXP 	Created unnamed Rect = Rect(__class__=<class 'psychopy.visual.rect.Rect'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=0, fillColor=array([ 1,  1, -1]), fillColorSpace='rgb', fillRGB=array([ 1,  1, -1]), interpolate=True, lineColor=array([0., 0., 0.]), lineColorSpace='rgb', lineRGB=array([0, 0, 0]), lineWidth=1.5, name='unnamed Rect', opacity=0.5, ori=0.0, pos=array([0., 0.]), size=array([30., 30.]), units='pix', vertices=ndarray(...), win=Window(...))
+178.5706 	EXP 	Created unnamed Rect = Rect(__class__=<class 'psychopy.visual.rect.Rect'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=0, fillColor=array([ 1,  1, -1]), fillColorSpace='rgb', fillRGB=array([ 1,  1, -1]), interpolate=True, lineColor=array([0., 0., 0.]), lineColorSpace='rgb', lineRGB=array([0, 0, 0]), lineWidth=1.5, name='unnamed Rect', opacity=0.5, ori=0.0, pos=array([0., 0.]), size=array([30., 30.]), units='pix', vertices=ndarray(...), win=Window(...))
+178.5720 	EXP 	Created unnamed Rect = Rect(__class__=<class 'psychopy.visual.rect.Rect'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=0, fillColor=array([ 1,  1, -1]), fillColorSpace='rgb', fillRGB=array([ 1,  1, -1]), interpolate=True, lineColor=array([0., 0., 0.]), lineColorSpace='rgb', lineRGB=array([0, 0, 0]), lineWidth=1.5, name='unnamed Rect', opacity=0.5, ori=0.0, pos=array([0., 0.]), size=array([30., 30.]), units='pix', vertices=ndarray(...), win=Window(...))
+178.6008 	EXP 	Created unnamed ImageStim = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, flipHoriz=False, flipVert=False, image='tree.png', interpolate=False, mask=None, maskParams=None, name='unnamed ImageStim', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([512., 512.]), texRes=128, units='pix', win=Window(...))
+178.6313 	EXP 	Created unnamed ImageStim = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, flipHoriz=False, flipVert=False, image='tree.png', interpolate=False, mask=None, maskParams=None, name='unnamed ImageStim', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([512., 512.]), texRes=128, units='pix', win=Window(...))
+178.6588 	EXP 	Created unnamed ImageStim = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, flipHoriz=False, flipVert=False, image='tree.png', interpolate=False, mask=None, maskParams=None, name='unnamed ImageStim', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([512., 512.]), texRes=128, units='pix', win=Window(...))
+178.6857 	EXP 	Created unnamed ImageStim = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, flipHoriz=False, flipVert=False, image='tree.png', interpolate=False, mask=None, maskParams=None, name='unnamed ImageStim', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([512., 512.]), texRes=128, units='pix', win=Window(...))
+178.7125 	EXP 	Created unnamed ImageStim = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, flipHoriz=False, flipVert=False, image='tree.png', interpolate=False, mask=None, maskParams=None, name='unnamed ImageStim', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([512., 512.]), texRes=128, units='pix', win=Window(...))
+178.7400 	EXP 	Created unnamed ImageStim = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, flipHoriz=False, flipVert=False, image='tree.png', interpolate=False, mask=None, maskParams=None, name='unnamed ImageStim', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([512., 512.]), texRes=128, units='pix', win=Window(...))
+178.7677 	EXP 	Created unnamed ImageStim = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, flipHoriz=False, flipVert=False, image='tree.png', interpolate=False, mask=None, maskParams=None, name='unnamed ImageStim', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([512., 512.]), texRes=128, units='pix', win=Window(...))
+178.7963 	EXP 	Created unnamed ImageStim = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, flipHoriz=False, flipVert=False, image='tree.png', interpolate=False, mask=None, maskParams=None, name='unnamed ImageStim', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([512., 512.]), texRes=128, units='pix', win=Window(...))
+178.8249 	EXP 	Created unnamed ImageStim = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, flipHoriz=False, flipVert=False, image='tree.png', interpolate=False, mask=None, maskParams=None, name='unnamed ImageStim', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([512., 512.]), texRes=128, units='pix', win=Window(...))
+178.8299 	DATA 	Keypress: space
+178.8407 	EXP 	Welcometext: autoDraw = False
+181.1646 	DATA 	Keypress: right
+181.4639 	DATA 	Keypress: right
+181.6973 	DATA 	Keypress: right
+181.9304 	DATA 	Keypress: right
+182.1495 	DATA 	Keypress: right
+182.3806 	DATA 	Keypress: right
+182.5812 	DATA 	Keypress: right
+182.8141 	DATA 	Keypress: right
+183.0474 	DATA 	Keypress: right
+183.4639 	DATA 	Keypress: right
+183.7313 	DATA 	Keypress: right
+184.0288 	EXP 	Created unnamed Rect = Rect(__class__=<class 'psychopy.visual.rect.Rect'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=0, fillColor=array([-1, -1, -1]), fillColorSpace='rgb', fillRGB=array([-1, -1, -1]), interpolate=True, lineColor=array([-1., -1.,  1.]), lineColorSpace='rgb', lineRGB=array([-1, -1,  1]), lineWidth=1.5, name='unnamed Rect', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([400., 600.]), units='pix', vertices=ndarray(...), win=Window(...))
+184.1831 	EXP 	Created unnamed ImageStim = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, flipHoriz=False, flipVert=False, image='attacked.png', interpolate=False, mask=None, maskParams=None, name='unnamed ImageStim', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([1920., 1080.]), texRes=128, units='pix', win=Window(...))
+184.2319 	EXP 	Created unnamed Rect = Rect(__class__=<class 'psychopy.visual.rect.Rect'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=0, fillColor=array([-1, -1, -1]), fillColorSpace='rgb', fillRGB=array([-1, -1, -1]), interpolate=True, lineColor=array([-1.        ,  0.00392157, -1.        ]), lineColorSpace='rgb', lineRGB=array([-1.        ,  0.00392157, -1.        ]), lineWidth=1.5, name='unnamed Rect', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([240., 160.]), units='pix', vertices=ndarray(...), win=Window(...))
+184.2350 	EXP 	Created unnamed Rect = Rect(__class__=<class 'psychopy.visual.rect.Rect'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=0, fillColor=array([-1, -1, -1]), fillColorSpace='rgb', fillRGB=array([-1, -1, -1]), interpolate=True, lineColor=array([-1., -1.,  1.]), lineColorSpace='rgb', lineRGB=array([-1, -1,  1]), lineWidth=1.5, name='unnamed Rect', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([400., 600.]), units='pix', vertices=ndarray(...), win=Window(...))
+184.2352 	DATA 	Keypress: right
+184.2360 	DATA 	Keypress: right
+184.2999 	DATA 	Keypress: right
+184.8112 	DATA 	Keypress: left
+185.0334 	DATA 	Keypress: up
+185.0501 	DATA 	Keypress: left
+185.3605 	DATA 	Keypress: left
+185.5773 	DATA 	Keypress: left
+185.7668 	DATA 	Keypress: left
+185.9503 	DATA 	Keypress: left
+186.1440 	DATA 	Keypress: left
+186.3501 	DATA 	Keypress: left
+186.5337 	DATA 	Keypress: left
+186.7939 	DATA 	Keypress: left
+186.9835 	DATA 	Keypress: left
+187.1773 	DATA 	Keypress: left
+187.4280 	DATA 	Keypress: left
+187.6108 	DATA 	Keypress: left
+187.8494 	DATA 	Keypress: left
+187.9110 	DATA 	Keypress: down
+188.0774 	DATA 	Keypress: left
+188.2335 	DATA 	Keypress: down
+188.3105 	DATA 	Keypress: left
+188.5447 	DATA 	Keypress: left
+188.7442 	DATA 	Keypress: left
+188.9274 	DATA 	Keypress: left
+189.2496 	DATA 	Keypress: up
+189.3495 	DATA 	Keypress: right
+189.4826 	DATA 	Keypress: up
+189.6275 	DATA 	Keypress: right
+189.6606 	DATA 	Keypress: up
+189.8273 	DATA 	Keypress: right
+189.8441 	DATA 	Keypress: up
+190.0346 	DATA 	Keypress: up
+190.0439 	DATA 	Keypress: right
+190.2373 	DATA 	Keypress: right
+190.2375 	DATA 	Keypress: up
+190.4454 	DATA 	Keypress: right
+190.4515 	DATA 	Keypress: up
+190.6274 	DATA 	Keypress: right
+190.6607 	DATA 	Keypress: up
+190.8164 	DATA 	Keypress: right
+190.8331 	DATA 	Keypress: up
+194.2598 	EXP 	text: autoDraw = True
+197.2443 	EXP 	New trial (rep=9, index=0): None
+197.2601 	EXP 	text: autoDraw = False
+197.2601 	EXP 	text: autoDraw = False
+197.2601 	EXP 	Welcometext: autoDraw = True
+198.4956 	EXP 	Created unnamed Rect = Rect(__class__=<class 'psychopy.visual.rect.Rect'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=0, fillColor=array([ 1, -1, -1]), fillColorSpace='rgb', fillRGB=array([ 1, -1, -1]), interpolate=True, lineColor=array([-1., -1.,  1.]), lineColorSpace='rgb', lineRGB=array([-1, -1,  1]), lineWidth=1.5, name='unnamed Rect', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([1000.,  700.]), units='pix', vertices=ndarray(...), win=Window(...))
+198.4967 	EXP 	Created unnamed Rect = Rect(__class__=<class 'psychopy.visual.rect.Rect'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=0, fillColor=array([-1, -1, -1]), fillColorSpace='rgb', fillRGB=array([-1, -1, -1]), interpolate=True, lineColor=array([-1., -1.,  1.]), lineColorSpace='rgb', lineRGB=array([-1, -1,  1]), lineWidth=1.5, name='unnamed Rect', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([400., 600.]), units='pix', vertices=ndarray(...), win=Window(...))
+198.4977 	EXP 	Created unnamed Rect = Rect(__class__=<class 'psychopy.visual.rect.Rect'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=0, fillColor=array([-1, -1, -1]), fillColorSpace='rgb', fillRGB=array([-1, -1, -1]), interpolate=True, lineColor=array([-1., -1.,  1.]), lineColorSpace='rgb', lineRGB=array([-1, -1,  1]), lineWidth=1.5, name='unnamed Rect', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([400., 600.]), units='pix', vertices=ndarray(...), win=Window(...))
+198.4991 	EXP 	Created unnamed Rect = Rect(__class__=<class 'psychopy.visual.rect.Rect'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=0, fillColor=array([ 1,  1, -1]), fillColorSpace='rgb', fillRGB=array([ 1,  1, -1]), interpolate=True, lineColor=array([0., 0., 0.]), lineColorSpace='rgb', lineRGB=array([0, 0, 0]), lineWidth=1.5, name='unnamed Rect', opacity=0.5, ori=0.0, pos=array([0., 0.]), size=array([30., 30.]), units='pix', vertices=ndarray(...), win=Window(...))
+198.5004 	EXP 	Created unnamed Rect = Rect(__class__=<class 'psychopy.visual.rect.Rect'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=0, fillColor=array([ 1,  1, -1]), fillColorSpace='rgb', fillRGB=array([ 1,  1, -1]), interpolate=True, lineColor=array([0., 0., 0.]), lineColorSpace='rgb', lineRGB=array([0, 0, 0]), lineWidth=1.5, name='unnamed Rect', opacity=0.5, ori=0.0, pos=array([0., 0.]), size=array([30., 30.]), units='pix', vertices=ndarray(...), win=Window(...))
+198.5017 	EXP 	Created unnamed Rect = Rect(__class__=<class 'psychopy.visual.rect.Rect'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=0, fillColor=array([ 1,  1, -1]), fillColorSpace='rgb', fillRGB=array([ 1,  1, -1]), interpolate=True, lineColor=array([0., 0., 0.]), lineColorSpace='rgb', lineRGB=array([0, 0, 0]), lineWidth=1.5, name='unnamed Rect', opacity=0.5, ori=0.0, pos=array([0., 0.]), size=array([30., 30.]), units='pix', vertices=ndarray(...), win=Window(...))
+198.5030 	EXP 	Created unnamed Rect = Rect(__class__=<class 'psychopy.visual.rect.Rect'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=0, fillColor=array([ 1,  1, -1]), fillColorSpace='rgb', fillRGB=array([ 1,  1, -1]), interpolate=True, lineColor=array([0., 0., 0.]), lineColorSpace='rgb', lineRGB=array([0, 0, 0]), lineWidth=1.5, name='unnamed Rect', opacity=0.5, ori=0.0, pos=array([0., 0.]), size=array([30., 30.]), units='pix', vertices=ndarray(...), win=Window(...))
+198.5043 	EXP 	Created unnamed Rect = Rect(__class__=<class 'psychopy.visual.rect.Rect'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=0, fillColor=array([ 1,  1, -1]), fillColorSpace='rgb', fillRGB=array([ 1,  1, -1]), interpolate=True, lineColor=array([0., 0., 0.]), lineColorSpace='rgb', lineRGB=array([0, 0, 0]), lineWidth=1.5, name='unnamed Rect', opacity=0.5, ori=0.0, pos=array([0., 0.]), size=array([30., 30.]), units='pix', vertices=ndarray(...), win=Window(...))
+198.5315 	EXP 	Created unnamed ImageStim = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, flipHoriz=False, flipVert=False, image='tree.png', interpolate=False, mask=None, maskParams=None, name='unnamed ImageStim', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([512., 512.]), texRes=128, units='pix', win=Window(...))
+198.5580 	EXP 	Created unnamed ImageStim = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, flipHoriz=False, flipVert=False, image='tree.png', interpolate=False, mask=None, maskParams=None, name='unnamed ImageStim', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([512., 512.]), texRes=128, units='pix', win=Window(...))
+198.5870 	EXP 	Created unnamed ImageStim = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, flipHoriz=False, flipVert=False, image='tree.png', interpolate=False, mask=None, maskParams=None, name='unnamed ImageStim', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([512., 512.]), texRes=128, units='pix', win=Window(...))
+198.6137 	EXP 	Created unnamed ImageStim = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, flipHoriz=False, flipVert=False, image='tree.png', interpolate=False, mask=None, maskParams=None, name='unnamed ImageStim', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([512., 512.]), texRes=128, units='pix', win=Window(...))
+198.6405 	EXP 	Created unnamed ImageStim = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, flipHoriz=False, flipVert=False, image='tree.png', interpolate=False, mask=None, maskParams=None, name='unnamed ImageStim', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([512., 512.]), texRes=128, units='pix', win=Window(...))
+198.6656 	EXP 	Created unnamed ImageStim = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, flipHoriz=False, flipVert=False, image='tree.png', interpolate=False, mask=None, maskParams=None, name='unnamed ImageStim', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([512., 512.]), texRes=128, units='pix', win=Window(...))
+198.6920 	EXP 	Created unnamed ImageStim = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, flipHoriz=False, flipVert=False, image='tree.png', interpolate=False, mask=None, maskParams=None, name='unnamed ImageStim', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([512., 512.]), texRes=128, units='pix', win=Window(...))
+198.7167 	EXP 	Created unnamed ImageStim = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, flipHoriz=False, flipVert=False, image='tree.png', interpolate=False, mask=None, maskParams=None, name='unnamed ImageStim', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([512., 512.]), texRes=128, units='pix', win=Window(...))
+198.7418 	EXP 	Created unnamed ImageStim = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, flipHoriz=False, flipVert=False, image='tree.png', interpolate=False, mask=None, maskParams=None, name='unnamed ImageStim', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([512., 512.]), texRes=128, units='pix', win=Window(...))
+198.7469 	DATA 	Keypress: space
+198.7586 	EXP 	Welcometext: autoDraw = False
+200.7155 	DATA 	Keypress: right
+201.3997 	DATA 	Keypress: right
+201.9319 	DATA 	Keypress: right
+202.3989 	DATA 	Keypress: right
+202.7816 	DATA 	Keypress: right
+203.3163 	DATA 	Keypress: right
+204.1459 	EXP 	Created unnamed Rect = Rect(__class__=<class 'psychopy.visual.rect.Rect'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=0, fillColor=array([-1, -1, -1]), fillColorSpace='rgb', fillRGB=array([-1, -1, -1]), interpolate=True, lineColor=array([-1., -1.,  1.]), lineColorSpace='rgb', lineRGB=array([-1, -1,  1]), lineWidth=1.5, name='unnamed Rect', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([400., 600.]), units='pix', vertices=ndarray(...), win=Window(...))
+204.3085 	EXP 	Created unnamed ImageStim = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, flipHoriz=False, flipVert=False, image='attacked.png', interpolate=False, mask=None, maskParams=None, name='unnamed ImageStim', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([1920., 1080.]), texRes=128, units='pix', win=Window(...))
+204.3620 	EXP 	Created unnamed Rect = Rect(__class__=<class 'psychopy.visual.rect.Rect'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=0, fillColor=array([-1, -1, -1]), fillColorSpace='rgb', fillRGB=array([-1, -1, -1]), interpolate=True, lineColor=array([-1.        ,  0.00392157, -1.        ]), lineColorSpace='rgb', lineRGB=array([-1.        ,  0.00392157, -1.        ]), lineWidth=1.5, name='unnamed Rect', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([240., 160.]), units='pix', vertices=ndarray(...), win=Window(...))
+204.3651 	EXP 	Created unnamed Rect = Rect(__class__=<class 'psychopy.visual.rect.Rect'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=0, fillColor=array([-1, -1, -1]), fillColorSpace='rgb', fillRGB=array([-1, -1, -1]), interpolate=True, lineColor=array([-1., -1.,  1.]), lineColorSpace='rgb', lineRGB=array([-1, -1,  1]), lineWidth=1.5, name='unnamed Rect', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([400., 600.]), units='pix', vertices=ndarray(...), win=Window(...))
+204.3654 	DATA 	Keypress: right
+204.6007 	DATA 	Keypress: left
+204.8508 	DATA 	Keypress: left
+205.1344 	DATA 	Keypress: down
+205.2675 	DATA 	Keypress: left
+205.4008 	DATA 	Keypress: down
+205.5276 	DATA 	Keypress: left
+205.7113 	DATA 	Keypress: right
+205.9125 	DATA 	Keypress: right
+206.0944 	DATA 	Keypress: right
+206.2609 	DATA 	Keypress: right
+206.5507 	DATA 	Keypress: right
+206.7611 	DATA 	Keypress: right
+206.9507 	DATA 	Keypress: right
+207.1276 	DATA 	Keypress: right
+207.3273 	DATA 	Keypress: right
+207.5136 	DATA 	Keypress: right
+207.8135 	DATA 	Keypress: right
+208.0802 	DATA 	Keypress: right
+214.3936 	EXP 	text: autoDraw = True
+215.7288 	DATA 	Keypress: space
+216.2283 	DATA 	Keypress: space
+216.6120 	DATA 	Keypress: space
+217.0450 	DATA 	Keypress: space
+217.3934 	EXP 	text: autoDraw = False
+217.3934 	EXP 	text: autoDraw = False
+218.5605 	EXP 	window1: mouseVisible = True
