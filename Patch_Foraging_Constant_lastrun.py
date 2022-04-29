@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 """
 This experiment was created using PsychoPy3 Experiment Builder (v2022.1.2),
-    on April 30, 2022, at 00:19
+    on April 30, 2022, at 00:18
 If you publish work using this script the most relevant publication is:
 
     Peirce J, Gray JR, Simpson S, MacAskill M, Höchenberger R, Sogo H, Kastman E, Lindeløv JK. (2019) 
@@ -59,7 +59,7 @@ filename = _thisDir + os.sep + u'data/%s_%s_%s' % (expInfo['participant'], expNa
 # An ExperimentHandler isn't essential but helps with data saving
 thisExp = data.ExperimentHandler(name=expName, version='',
     extraInfo=expInfo, runtimeInfo=None,
-    originPath='C:\\Users\\bhuva\\Documents\\GitHub\\BSE662A_Patch_Foraging\\Patch_Foraging_Random_lastrun.py',
+    originPath='C:\\Users\\bhuva\\Documents\\GitHub\\BSE662A_Patch_Foraging\\Patch_Foraging_Constant_lastrun.py',
     savePickle=True, saveWideText=True,
     dataFileName=filename)
 # save a log file for detail verbose info
@@ -302,7 +302,7 @@ for thisTrial in trials:
     #state_c = 0
     state_t = random.randint(0,1)
     #state_t = 1
-    state_r = random.randint(1,4)
+    state_r = 3
     
     l_c = competitors[state_c][0]
     r_c = competitors[state_c][1]
@@ -347,7 +347,6 @@ for thisTrial in trials:
         elif p_pos[1]<-(300-15):
             p_pos[1] = -(300-15)
         return p_pos, no_keypress
-    
     
     
     # keep track of which components have finished
